@@ -201,5 +201,52 @@ fields:
       label: Link
     label: Button
   label: Kosten
+- name: leistungen
+  type: field_group
+  config: {}
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: elemente
+    type: field_group_list
+    fields:
+    - name: titel_gross
+      type: text
+      config:
+        required: false
+      label: Titel gross
+      description: Zahlen
+    - name: titel_hochkant
+      type: text
+      config:
+        required: false
+      label: Titel hochkant
+    - name: content_mitte
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content mitte
+    - name: content_unten
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content unten
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Elemente
+  label: Leistungen
 pages:
 - content/_index.md
