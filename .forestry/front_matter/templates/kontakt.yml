@@ -1,0 +1,47 @@
+---
+label: Kontakt
+hide_body: true
+fields:
+- name: headertitel
+  type: text
+  config:
+    required: false
+  label: Headertitel
+- name: karte
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Karte
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+- name: content
+  type: field_group_list
+  fields:
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Content
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Icon
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: content
+pages:
+- content/Kontakt.md

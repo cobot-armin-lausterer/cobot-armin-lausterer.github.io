@@ -1,0 +1,171 @@
+{{ define "main" }} {{$p:=.}}
+<div id="home">
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.title}}</h1>
+    </div>
+  </div>
+  <!--
+  <div class="white">
+    <div id="videocontainer" >
+      <div style="max-width: px">
+        <video
+          id="home_player"
+          data-cld-public-id="lausterer/uploads/2020/05/04/lausterer_animation_final_16zu9_280520"
+          muted
+          controls
+          class="cld-video-player cld-video-player-skin-light"
+        ></video>
+      </div>
+    </div>
+  </div>
+
+  {{with .Params.leistungen}}
+  <div id="leistungen" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+    <div class="ui container">
+      <h2>{{.titelzeile}}</h2>
+      <div class="ui three column stackable grid">
+        {{range .kacheln}}
+          <div class="ui column computer only">
+            <a href="{{relref $p .buttonlink}}">
+            <div class="ui fade reveal">
+              <div class="visible content {{.farbe}}">
+                <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
+                {{.text_vorderseite|markdownify}}
+              </div>
+              <div class="hidden content {{.farbe}}">
+                {{.text_ruckseite|markdownify}}
+              </div>
+            </div>
+            </a>
+            <a class="albutton colbutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+          </div>
+          <div class="ui column mobile only">
+            <div class=" content {{.farbe}}">
+              <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_300" )}} "/>
+              <h3>{{.text_vorderseite|markdownify}}</h3>
+              {{.text_ruckseite|markdownify}}
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+    <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+  </div>
+  {{end}}
+  {{with .Params.online_semin}}
+  <div id="online_semin" >
+    <div class="ui container" style="background:url({{partial "imgUrl" (dict "img" .bild "params" "q_auto" )}}) left top no-repeat; background-size:cover">
+      <div class="online_semin_c" >
+        <div>
+          <h2>{{.headline}}</h2>
+          <div class="content">
+            {{.text|safeHTML}}
+          </div>
+          <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.team}}
+  <div id="team" class="grey">
+    <div class="ui container">
+      <h2>{{.headline}}</h2>
+      <div class="teamgrid">
+        {{range .team_einzeln}}
+          <div class="tcol">
+            <div class="visible content">
+              <img src="{{partial "imgUrl" (dict "img" .teambild "params" "c_scale,f_auto,w_300" )}} "/>
+              <div class="tm  {{.farbe}}">
+                <h3>{{.name}}</h3>
+                <h4>{{.position}}&nbsp;</h4>
+              </div>
+            </div>
+            <div class="hidden content {{.farbe}}">
+              {{.kachelruckseite|markdownify}}
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+    <div class="buttoncontainer">
+      <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.lean_labor}}
+  <div id="lean_labor" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) right top no-repeat; background-size:50% auto">
+    <div class="ui container">
+      <div class="lean_labor_c">
+        <div>
+          <h2>{{.headline}}</h2>
+          <div class="content">
+            {{.text|markdownify}}
+          </div>
+          <a class="albutton morebutton" href="{{relref $p .buttonlink}}">{{.buttonbeschriftung}}</a>
+        </div>
+      </div>
+      <img src="{{partial "imgUrl" (dict "img" .vordergrund_bild "params" "c_scale,f_auto,w_800" )}} "/>
+    </div>
+  </div>
+  {{end}}
+  {{with .Params.testimonials}}
+  <div id="testimonials" >
+    <h2>{{.titel_links}}</h2>
+    <div class="blue">
+      <div class="ui container">
+        
+        <div class="ui stackable mobile-reverse grid">
+          <div class="ui four wide column computer only" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+
+          </div>
+          <div class="ui twelve wide column">
+            <div class="ui stackable two column grid rg">
+              {{ range $x,$k := .kunden }} {{if lt $x 2}}
+              <div class="ui column">
+              <div class="block {{.farbe}}">
+                <h4>{{.titel_}}</h4>
+                {{.textkunden|safeHTML}}
+              </div>
+              </div>
+              {{end}}{{end}}
+            </div>
+            <div class="ui stackable two column grid rg">
+                {{ range $x,$k := .kunden }} {{if gt $x 1}}
+                <div class="ui column">
+                <div class="block {{.farbe}}">
+                  <h4>{{.titel_}}</h4>
+                  {{.textkunden|safeHTML}}
+                </div>
+                </div>
+                {{end}}{{end}}
+                <div class="ui column">
+                  <div class="block blue">
+                    <a class="bb" href="{{relref $p .buttonlink}}">{{.grosser_button}}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}
+  -->
+</div>
+<script type="text/javascript">
+  $(function () {
+    var cld = cloudinary.Cloudinary.new({ cloud_name: 'b-coding' });
+    var demoplayer = cld.videoPlayer('home_player',{
+      loop:true,
+      autoplayMode:'on-scroll',
+      hideContextMenu:true,
+      quality: 100, 
+      videoCodec: "auto",
+      showJumpControls: true
+    });
+  });
+</script>
+{{ end }}

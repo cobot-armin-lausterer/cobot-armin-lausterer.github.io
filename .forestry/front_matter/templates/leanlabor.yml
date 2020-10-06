@@ -1,0 +1,84 @@
+---
+label: LeanLabor
+hide_body: true
+fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: header
+- name: header_bild
+  type: file
+  config:
+    maxSize: 64
+  label: header bild
+- name: subheadline
+  type: text
+  config:
+    required: false
+  label: subheadline
+- name: einfuhrungstext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: einführungstext
+- name: lean_labor
+  type: field_group_list
+  fields:
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: bild_
+    type: file
+    config:
+      maxSize: 64
+    label: 'Bild '
+    description: alternativ zu youtube-ID
+  - name: youtube_code
+    type: text
+    config:
+      required: false
+    label: youtube_code
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: content
+  - name: buttonlink
+    type: text
+    config:
+      required: false
+    label: buttonlink
+  - name: buttonlinkfile
+    type: file
+    config:
+      maxSize: 64
+    label: buttonlinkfile
+    description: alternativ zu link
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: lean-labor
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/leanlabor.md

@@ -1,0 +1,4 @@
+baseURL = "https://cobot-arminlausterer.github.io"
+languageCode = "de-de"
+theme = "lausterer"
+title = "Cobot - Armin Lausterer"

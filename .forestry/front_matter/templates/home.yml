@@ -1,0 +1,316 @@
+---
+label: Home
+hide_body: true
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
+- name: video_home
+  type: file
+  config:
+    maxSize: 64
+  label: Video_Home
+- name: leistungen
+  type: field_group
+  config: {}
+  fields:
+  - name: titelzeile
+    type: text
+    config:
+      required: false
+    label: Titelzeile
+  - name: backgroundpicture
+    type: file
+    config:
+      maxSize: 64
+    label: Backgroundpicture
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: buttonlink
+  - name: kacheln
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: Icon
+    - name: text_vorderseite
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Text-Vorderseite
+    - name: text_ruckseite
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Text Rückseite
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
+    - name: buttonbeschriftung
+      type: text
+      config:
+        required: false
+      label: buttonbeschriftung
+    - name: buttonlink
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: seiten
+          file: 
+          path: 
+      label: buttonlink
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Kacheln
+  label: Leistungen
+- name: online_semin
+  type: field_group
+  config: {}
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 64
+    label: Bild
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Text
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: buttonlink
+  label: OnlineTrainings
+- name: team
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: buttonlink
+  - name: team_einzeln
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Name
+    - name: position
+      type: text
+      config:
+        required: false
+      label: Position
+    - name: teambild
+      type: file
+      config:
+        maxSize: 64
+      label: Teambild
+    - name: kachelruckseite
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Kachelrückseite
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: team-einzeln
+  label: Team
+- name: lean_labor
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: headline
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text
+  - name: backgroundpicture
+    type: file
+    config:
+      maxSize: 64
+    label: Backgroundpicture
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: buttonlink
+  - name: vordergrund-bild
+    type: file
+    config:
+      maxSize: 64
+    label: Vordergrund-bild
+  label: Lean Labor
+- name: testimonials
+  type: field_group
+  config: {}
+  fields:
+  - name: titel_links
+    type: text
+    config:
+      required: false
+    label: Titel-links
+  - name: backgroundpicture
+    type: file
+    config:
+      maxSize: 64
+    label: Backgroundpicture
+  - name: kunden
+    type: field_group_list
+    fields:
+    - name: titel_
+      type: text
+      config:
+        required: false
+      label: 'Titel '
+    - name: textkunden
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: TextKunden
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Kunden
+  - name: grosser_button
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: buttonlink
+  label: Testimonials
+pages:
+- content/_index.md

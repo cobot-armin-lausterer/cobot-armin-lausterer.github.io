@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="subpage testimonial">
+  <div class="titlewrap">
+    <div class="ui container">
+      <h1>{{.Params.header}}</h1>
+    </div>
+  </div>
+  <div class="ui container standard">
+    <div class="content">
+      <img src="{{partial "imgUrl" (dict "img" .Params.header_bild "params" "c_scale,f_auto,w_1200" )}} "/> 
+      {{range .Params.kundenstimmen}}
+      <div class="ks">
+        <div class="ui stackable grid mobile reversed">
+          <div class="four wide column">
+            <img src="{{partial "imgUrl" (dict "img" .bild_links "params" "c_scale,f_auto,w_600" )}} "/>
+          </div>
+          <div class="twelve wide column">
+            <h2>{{.header}}</h2>
+            <div>{{.content|safeHTML}}</div>
+            <a class="albutton" href="{{.buttonlinkfile}}" target="_blank">{{.buttonbeschriftung}}</a>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>
+{{ end }}

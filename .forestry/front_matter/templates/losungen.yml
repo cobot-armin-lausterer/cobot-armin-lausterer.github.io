@@ -1,0 +1,143 @@
+---
+label: Lösungen
+hide_body: true
+fields:
+- name: titel
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: headerpicture
+  type: file
+  config:
+    maxSize: 64
+  label: Headerpicture
+- name: ziele_pic
+  type: file
+  config:
+    maxSize: 64
+  label: ziele-pic
+- name: titelziele
+  type: text
+  config:
+    required: false
+  label: Titelziele
+- name: ziele
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Ziele_linkespalte
+- name: ziele_2spalte
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: ziele_2spalte
+- name: kachel
+  type: field_group_list
+  fields:
+  - name: bild
+    type: file
+    config:
+      maxSize: 64
+    label: bild
+  - name: titel
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: aufzäehlung_links
+  - name: aufzaehlung_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: aufzäehlung_rechts
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kachel
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+- name: kacheln
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Icon
+  - name: text_vorderseite
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text-Vorderseite
+  - name: text_ruckseite
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Text Rückseite
+  - name: farbe
+    type: include
+    config: {}
+    template: farbe
+    label: Farbe
+  - name: buttonbeschriftung
+    type: text
+    config:
+      required: false
+    label: buttonbeschriftung
+  - name: buttonlink
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: seiten
+        file: 
+        path: 
+    label: buttonlink
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kacheln
+- name: backgroundpicture
+  type: file
+  config:
+    maxSize: 64
+  label: Backgroundpicture
+pages:
+- content/Lösungen.md

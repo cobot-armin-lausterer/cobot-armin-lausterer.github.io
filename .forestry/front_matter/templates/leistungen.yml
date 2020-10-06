@@ -1,0 +1,54 @@
+---
+label: Leistungen
+hide_body: true
+fields:
+- name: headertitel
+  type: text
+  config:
+    required: false
+  label: Headertitel
+- name: headerpic
+  type: file
+  config:
+    maxSize: 64
+  label: Headerpic
+- name: content
+  type: field_group_list
+  fields:
+  - name: subheadline
+    type: text
+    config:
+      required: false
+    label: subheadline
+  - name: aufzaehlung
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: aufzäehlung_links
+  - name: aufzaehlung_rechts
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: aufzäehlung_rechts
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: content
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/Consulting.md
+- content/Outsourcing.md
+- content/coaching.md

@@ -1,0 +1,131 @@
+---
+label: Unternehmen
+hide_body: true
+fields:
+- name: untertitel
+  type: text
+  config:
+    required: false
+  label: Untertitel
+- name: unternehmen
+  type: text
+  config:
+    required: false
+  label: Unternehmen
+- name: globalesheaderbild
+  type: file
+  config:
+    maxSize: 64
+  label: globalesheaderbild
+- name: einfuhrungstext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: einführungstext
+- name: headerbild
+  type: file
+  config:
+    maxSize: 64
+  label: Headerbild
+- name: content
+  type: field_group_list
+  fields:
+  - name: headertitel
+    type: text
+    config:
+      required: false
+    label: Headertitel
+  - name: inhalt
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Inhalt
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Content
+- name: werte
+  type: field_group
+  config: {}
+  fields:
+  - name: werte
+    type: text
+    config:
+      required: false
+    label: Werte-headline
+  - name: aufklapp-headline
+    type: field_group_list
+    fields:
+    - name: aufklapp_headline
+      type: text
+      config:
+        required: false
+      label: aufklapp-headline
+    - name: aufklapptext
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: aufklapptext
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: aufklapper
+  label: werte
+- name: team
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: teammitglied
+    type: field_group_list
+    fields:
+    - name: teambild
+      type: file
+      config:
+        maxSize: 64
+      label: Teambild
+    - name: name
+      type: text
+      config:
+        required: false
+      label: name
+    - name: beschreibung
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Beschreibung
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: teammitglied
+  label: Team
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: seo
+pages:
+- content/Unternehmen.md
