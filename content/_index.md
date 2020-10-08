@@ -41,7 +41,7 @@ titel = ""
 elemente = []
 titel = ""
 [vorteile]
-backgroundpicture = ""
+backgroundpicture = "/uploads/2020/10/08/background_vorteile.png"
 titelzeile = "Vorteile"
 [[vorteile.kacheln]]
 farbe = "blue_dark"
