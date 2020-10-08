@@ -6,7 +6,7 @@ type = "page"
 titel = "Anwendungsgebiet"
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">Cobots minimieren Wartezeiten von Engpassmaschinen, durch taktgerechtes Be- und Entladen</p>"
-farbe = "blue_dark"
+farbe = "blue"
 titel = "Kapazitätsengpässe"
 video = ""
 [[anwendungsgebiete.elemente]]
