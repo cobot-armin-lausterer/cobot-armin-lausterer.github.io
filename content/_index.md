@@ -104,8 +104,8 @@ titel = ""
 video = ""
 [[videos.elemente]]
 hintergrundbild = ""
-icon = ""
-titel = ""
+icon = "/uploads/2020/10/08/firmenbeispiele_icon"
+titel = "Firmenbeispiele"
 video = ""
 [vorteile]
 backgroundpicture = "/uploads/2020/10/08/background_vorteile.png"
