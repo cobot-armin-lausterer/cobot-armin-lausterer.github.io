@@ -84,9 +84,9 @@ video = ""
 [[videos.elemente]]
 farbe = ""
 hintergrundbild = ""
-icon = ""
+icon = "/uploads/2020/10/08/schleifen.png"
 link = ""
-titel = ""
+titel = "Schleifen & Polieren"
 video = ""
 [[videos.elemente]]
 farbe = "grey"
