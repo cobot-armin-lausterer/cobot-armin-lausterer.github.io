@@ -37,7 +37,7 @@ link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orien
 [leistungen]
 titel = "Unsere Leistungen"
 [[leistungen.elemente]]
-content_mitte = "<p><strong>Potenzialanalyse <br></strong></p><p>Wir identifizieren Engpässe und Arbeitsplätze, an denen eine Automatisierung für Sie wirklich Sinn macht.</p><p class=\"p2\">Sie erhalten eine detaillierte Potenzialanalyse, inklusive technische Einschätzung und Kosten-/Nutzenabschätzung.</p>"
+content_mitte = "<p><strong>Potenzialanalyse </strong></p><ul><li><p>Wir identifizieren Engpässe und Arbeitsplätze, an denen eine Automatisierung für Sie wirklich Sinn macht.</p></li><li><p class=\"p2\">Sie erhalten eine detaillierte Potenzialanalyse, inklusive technische Einschätzung und Kosten-/Nutzenabschätzung.</p></li></ul>"
 content_unten = "<p><strong>Sie investieren garantiert an der richtigen Stelle</strong></p><p><img src=\"/uploads/2020/10/08/kostenlos_eck.png\"></p>"
 titel_gross = "1"
 titel_hochkant = "Phase"
