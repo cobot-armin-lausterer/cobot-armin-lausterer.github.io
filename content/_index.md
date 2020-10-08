@@ -42,7 +42,26 @@ elemente = []
 titel = ""
 [vorteile]
 backgroundpicture = ""
-kacheln = []
 titelzeile = ""
+[[vorteile.kacheln]]
+farbe = "blue_dark"
+icon = "/uploads/2020/10/08/vorteile_einfacheanwendung.png"
+text_ruckseite = "schnelle und einfache Programmierung ohne Experten"
+text_vorderseite = "**einfache Anwendung**"
+[[vorteile.kacheln]]
+farbe = ""
+icon = ""
+text_ruckseite = ""
+text_vorderseite = ""
+[[vorteile.kacheln]]
+farbe = ""
+icon = ""
+text_ruckseite = ""
+text_vorderseite = ""
+[[vorteile.kacheln]]
+farbe = ""
+icon = ""
+text_ruckseite = ""
+text_vorderseite = ""
 
 +++
