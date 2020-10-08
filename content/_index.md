@@ -7,16 +7,19 @@ titel = "Anwendungsgebiete"
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">Cobots minimieren Wartezeiten von Engpassmaschinen, durch taktgerechtes Be- und Entladen</p>"
 farbe = "blue"
+link = " https://youtu.be/bkaADR8AS8E"
 titel = "Kapazitätsengpässe"
 video = ""
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">COBOTS vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
 farbe = "grey_light"
+link = ""
 titel = "Nacharbeit & Ausschuss"
 video = ""
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">COBOTS übernehmen Arbeiten die durch Lärm, Staub, Gefahrstoffe, Position oder -ergonomie für Menschen dauerhaft schädlich sind.</p>"
 farbe = "blue_dark"
+link = ""
 titel = "Arbeitsbedingungen"
 video = ""
 [cobot]
