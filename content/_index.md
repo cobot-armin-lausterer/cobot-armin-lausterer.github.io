@@ -66,8 +66,47 @@ content_unten = "<p><strong>Damit ist die Nachhaltigkeit Ihrer Investition gewä
 titel_gross = "3"
 titel_hochkant = "Phase"
 [videos]
-elemente = []
+titel = "Videos"
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
+titel = "Montage"
+video = ""
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
 titel = ""
+video = ""
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
+titel = ""
+video = ""
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
+titel = ""
+video = ""
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
+titel = ""
+video = ""
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
+titel = ""
+video = ""
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
+titel = ""
+video = ""
+[[videos.elemente]]
+hintergrundbild = ""
+icon = ""
+titel = ""
+video = ""
 [vorteile]
 backgroundpicture = "/uploads/2020/10/08/background_vorteile.png"
 titelzeile = "Vorteile"
