@@ -47,10 +47,10 @@ content_unten = "<p><strong>Finanzielle Sicherheit</strong></p>"
 titel_gross = "2"
 titel_hochkant = "Phase"
 [[leistungen.elemente]]
-content_mitte = ""
-content_unten = ""
-titel_gross = ""
-titel_hochkant = ""
+content_mitte = "<p><strong>Umsetzung</strong></p><ul><li><p class=\"p3\">Wir betreuen Sie bei der Erstellung des finalen Konzeptes.</p></li><li><p class=\"p3\">Wir begleiten Sie beim Aufbau und der Inbetriebnahme.</p></li><li><p class=\"p3\">Wir schulen und trainieren Ihre Mitarbeiter.</p></li></ul>"
+content_unten = "<p><strong>Damit ist die Nachhaltigkeit Ihrer Investition gewährleistet</strong></p><p class=\"p4\"></p>"
+titel_gross = "3"
+titel_hochkant = "Phase"
 [videos]
 elemente = []
 titel = ""
