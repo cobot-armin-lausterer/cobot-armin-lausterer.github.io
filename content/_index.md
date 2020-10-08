@@ -86,7 +86,7 @@ titel = "Kollaboration mit Mensch"
 video = ""
 [[videos.elemente]]
 farbe = "blue"
-hintergrundbild = ""
+hintergrundbild = "/uploads/2020/10/08/bildschirmfoto-2020-10-08-um-11-30-53.png"
 icon = "/uploads/2020/10/08/schleifen.png"
 link = "https://www.youtube.com/watch?v=4MufntH6ZJQ&list=PLEQlh37sPVWFXPRcKPT3cGvqYMQl9wlVK"
 titel = "Schleifen & Polieren"
