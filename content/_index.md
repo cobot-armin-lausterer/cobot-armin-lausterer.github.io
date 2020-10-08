@@ -74,7 +74,7 @@ titel = "Videos"
 farbe = "grey_light"
 hintergrundbild = "/uploads/2020/10/08/firmenbeispiele.jpg"
 icon = "/uploads/2020/10/08/montage.png"
-link = "https://www.youtube.com/playlist?list=PLEQlh37sPVWEFTkzbWWnL_0gv9N2cup50"
+link = "https://www.youtube.com/watch?v=W-O8mDEJQkE&list=PLEQlh37sPVWH9wGithXzOxnrckxa2ZALp"
 titel = "Montage"
 video = ""
 [[videos.elemente]]
