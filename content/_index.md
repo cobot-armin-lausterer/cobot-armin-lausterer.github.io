@@ -88,7 +88,7 @@ video = ""
 farbe = "blue"
 hintergrundbild = ""
 icon = "/uploads/2020/10/08/schleifen.png"
-link = ""
+link = "https://www.youtube.com/watch?v=4MufntH6ZJQ&list=PLEQlh37sPVWFXPRcKPT3cGvqYMQl9wlVK"
 titel = "Schleifen & Polieren"
 video = ""
 [[videos.elemente]]
