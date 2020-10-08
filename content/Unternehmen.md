@@ -9,7 +9,9 @@ textlinks = "**Wir haben eine Passion für unsere Kunden:**\n\n* Wir werden von 
 titelzeile = "Unsere Werte: Werte sind die Grundlage unseres Handelns und durch die folgenden Prinzipien beschrieben."
 unternehmen = "Unternehmen"
 untertitel = "Armin Lausterer - Ingenieurbüro für Prozessoptimierung"
-
+[menu.main]
+name = "Unternehmen"
+weight = 2
 [team]
 headline = "Team"
 [[team.teammitglied]]
