@@ -3,8 +3,22 @@ seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coach
 title = "COBOTS - Kollaborative Robotersysteme"
 type = "page"
 [anwendungsgebiete]
-elemente = []
+titel = "Anwendungsgebiet"
+[[anwendungsgebiete.elemente]]
+content = "<p class=\"p2\">Cobots minimieren Wartezeiten von Engpassmaschinen, durch taktgerechtes Be- und Entladen</p>"
+farbe = "blue_dark"
+titel = "Kapazitätsengpässe"
+video = ""
+[[anwendungsgebiete.elemente]]
+content = ""
+farbe = ""
 titel = ""
+video = ""
+[[anwendungsgebiete.elemente]]
+content = ""
+farbe = ""
+titel = ""
+video = ""
 [cobot]
 backgroundpicture = "/uploads/2020/10/08/cobot_background.png"
 headline = "WAS ist ein COBOT"
