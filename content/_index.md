@@ -47,7 +47,7 @@ titelzeile = "Vorteile"
 farbe = "blue_dark"
 icon = "/uploads/2020/10/08/vorteile_einfacheanwendung.png"
 text_ruckseite = "schnelle und einfache Programmierung ohne Experten"
-text_vorderseite = "**einfache Anwendung**"
+text_vorderseite = "einfache Anwendung"
 [[vorteile.kacheln]]
 farbe = "blue"
 icon = "/uploads/2020/10/08/vorteile_flexiblitaet.png"
