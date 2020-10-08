@@ -32,8 +32,8 @@ titel = "Was kosten COBOTS? "
 [kosten.button]
 content = "<p><strong>Potenzial Analyse<br></strong>jetzt durchführen, schnell &amp; einfach!</p>"
 farbe = "blue"
-icon = ""
-link = ""
+icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
+link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
 [leistungen]
 elemente = []
 titel = ""
