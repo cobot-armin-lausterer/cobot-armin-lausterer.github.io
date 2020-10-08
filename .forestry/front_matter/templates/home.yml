@@ -322,6 +322,11 @@ fields:
       config:
         maxSize: 64
       label: Video
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
     config:
       min: 
       max: 
