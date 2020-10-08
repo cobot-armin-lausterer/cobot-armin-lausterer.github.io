@@ -59,9 +59,9 @@ icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
 text_ruckseite = "Erweiterungen oder Änderungen lassen sich in kurzer Zeit, mit wenig Aufwand   \n realisieren."
 text_vorderseite = "kurze Rüstzeiten"
 [[vorteile.kacheln]]
-farbe = ""
-icon = ""
-text_ruckseite = ""
-text_vorderseite = ""
+farbe = "grey"
+icon = "/uploads/2020/10/08/vorteile_sicherheit.png"
+text_ruckseite = "Durch berührungsempfindliche Sensoren ist ein sicheres Hand-in-Hand Arbeiten gewährleistet."
+text_vorderseite = "hohe Sicherheit"
 
 +++
