@@ -35,8 +35,12 @@ farbe = "blue"
 icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
 [leistungen]
-elemente = []
-titel = ""
+titel = "Unsere Leistungen"
+[[leistungen.elemente]]
+content_mitte = "<p><strong>Potenzialanalyse <br></strong></p><p>Wir identifizieren Engpässe und Arbeitsplätze, an denen eine Automatisierung für Sie wirklich Sinn macht.</p><p class=\"p2\">Sie erhalten eine detaillierte Potenzialanalyse, inklusive technische Einschätzung und Kosten-/Nutzenabschätzung.</p>"
+content_unten = "<p><strong>Sie investieren garantiert an der richtigen Stelle</strong></p>"
+titel_gross = "1"
+titel_hochkant = "Phase"
 [videos]
 elemente = []
 titel = ""
