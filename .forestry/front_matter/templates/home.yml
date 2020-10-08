@@ -327,6 +327,11 @@ fields:
       config:
         required: false
       label: link
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
     config:
       min: 
       max: 
