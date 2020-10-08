@@ -11,7 +11,7 @@ unternehmen = "Unternehmen"
 untertitel = "Armin Lausterer - Ingenieurbüro für Prozessoptimierung"
 [menu.main]
 name = "Unternehmen"
-weight = 2
+weight = 1
 [team]
 headline = "Team"
 [[team.teammitglied]]
