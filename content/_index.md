@@ -42,10 +42,10 @@ content_unten = "<p><strong>Sie investieren garantiert an der richtigen Stelle</
 titel_gross = "1"
 titel_hochkant = "Phase"
 [[leistungen.elemente]]
-content_mitte = ""
-content_unten = ""
-titel_gross = ""
-titel_hochkant = ""
+content_mitte = "<p><strong>Konzeptstudie</strong></p><ul><li><p class=\"p2\">Aufnahme des IST-Prozesses (Wertstrombegehung) inkl. Vorbereitung und Rüsten.</p></li><li><p class=\"p3\">Detaillierte Ausarbeitung des Automatisierungskonzeptes, inklusive Layout, Stücklisten etc.</p></li><li><p class=\"p3\">Ausführliche Wirtschaftlichkeitsberechnung inklusive Angebot.</p></li></ul>"
+content_unten = "<p><strong>Finanzielle Sicherheit</strong></p>"
+titel_gross = "2"
+titel_hochkant = "Phase"
 [[leistungen.elemente]]
 content_mitte = ""
 content_unten = ""
