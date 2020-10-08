@@ -15,9 +15,9 @@ farbe = "grey_light"
 titel = "Nacharbeit & Ausschuss"
 video = ""
 [[anwendungsgebiete.elemente]]
-content = ""
-farbe = ""
-titel = ""
+content = "<p class=\"p2\">COBOTS übernehmen Arbeiten die durch Lärm, Staub, Gefahrstoffe, Position oder -ergonomie für Menschen dauerhaft schädlich sind.</p>"
+farbe = "blue_dark"
+titel = "Arbeitsbedingungen"
 video = ""
 [cobot]
 backgroundpicture = "/uploads/2020/10/08/cobot_background.png"
