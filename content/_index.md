@@ -82,7 +82,7 @@ link = ""
 titel = ""
 video = ""
 [[videos.elemente]]
-farbe = ""
+farbe = "blue"
 hintergrundbild = ""
 icon = "/uploads/2020/10/08/schleifen.png"
 link = ""
