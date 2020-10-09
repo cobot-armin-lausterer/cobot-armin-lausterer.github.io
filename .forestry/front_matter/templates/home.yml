@@ -105,11 +105,6 @@ fields:
       config:
         maxSize: 64
       label: icon
-    - name: content
-      type: text
-      config:
-        required: false
-      label: Content
     - name: farbe
       type: include
       config: {}
@@ -120,6 +115,15 @@ fields:
       config:
         required: false
       label: link
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
+      label: Content
     label: button
   label: Was ist ein Cobot
 - name: vorteile
