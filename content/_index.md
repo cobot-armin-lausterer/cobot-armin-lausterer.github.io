@@ -47,7 +47,7 @@ bild = "/uploads/2020/10/08/kosten_icon.png"
 content = "Typische Investitionen betragen etwa 50-70k€ für die Komplettlösung. Der Return on Invest (ROI) liegt meist deutlich unter 12 Monate. \n\nVoraussetzung ist, dass an der richtigen Stelle im Wertstrom automatisiert wird. Dies kann durch eine sorgfältig durchgeführte Potenzialanalyse sichergestellt werden. \n\nDamit rechnen sich COBOTS speziell bei Anwendungen mit geringen Volumen und hoher Variantenzahl. "
 titel = "Was kosten COBOTS? "
 [kosten.button]
-content = "<p><strong>Potenzial Analyse<br></strong>jetzt durchführen, schnell &amp; einfach!</p>"
+content = "<p><strong>Analysieren Sie Ihr Potential jetzt!<br></strong>einfach Formular downloaden und selbst bewerten</p>"
 farbe = "blue"
 icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
