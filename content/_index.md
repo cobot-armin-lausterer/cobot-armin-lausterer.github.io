@@ -49,7 +49,7 @@ position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [kosten]
 bild = "/uploads/2020/10/08/kosten_icon.png"
-content = "Typische Investitionen betragen etwa 50-70k€ für die Komplettlösung. Der Return on Invest (ROI) liegt meist deutlich unter 12 Monate. \n\nVoraussetzung ist, dass an der richtigen Stelle im Wertstrom automatisiert wird. Dies kann durch eine sorgfältig durchgeführte Potenzialanalyse sichergestellt werden. \n\nDamit rechnen sich COBOTS speziell bei Anwendungen mit geringen Volumen und hoher Variantenzahl. "
+content = "<p>Typische Investitionen betragen etwa 50-70k€ für die Komplettlösung. Der Return on Invest (ROI) liegt meist deutlich unter 12 Monate. </p><p>Voraussetzung ist, dass an der richtigen Stelle im Wertstrom automatisiert wird. Dies kann durch eine sorgfältig durchgeführte Potenzialanalyse sichergestellt werden. </p><p>Damit rechnen sich COBOTS speziell bei Anwendungen mit geringen Volumen und hoher Variantenzahl.</p>"
 titel = "Was kosten COBOTS? "
 [kosten.button]
 content = "<p><strong>Analysieren Sie Ihr Potential jetzt!<br></strong>einfach Formular downloaden und selbst bewerten</p>"
