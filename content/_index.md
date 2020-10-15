@@ -29,7 +29,7 @@ headline2 = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Han
 text = "<p class=\"p1\">Eine klassische Roboterzelle ist nicht mehr notwendig. Der COBOT wird in die bestehende Arbeitsumgebung integriert. Damit eine sichere und produktive Zusammenarbeit gelingt ist der COBOT mit berührungsempfindlichen Sensoren ausgestattet. Je nach Art und Stärke der Berührung sind verschiedene Reaktions-szenarien programmiert, die stets einen sicheren Betriebszustand gewährleisten. <br> Das Zuführen und Entnehmen von Teilen geschieht auf die ähnliche Weise, wie im manuellen Prozess. Darüber hinaus, lassen sich COBOTS sehr einfach programmieren, eine langwierige Ausbildung ist nicht notwendig. Diese Eigenschaften und Ihre leichte Bauweise lassen es zu, dass Sie sogar mobil an mehreren Arbeitsplätzen eingesetzt werden können.</p>"
 vordergrund-bild = "/uploads/2020/10/08/cobot.png"
 [cobot.button]
-content = "<p><strong>Präsentation </strong></p><p>als .pdf downloaden</p>"
+content = "<p><strong>Präsentation<br></strong>als .pdf downloaden</p>"
 farbe = "blue"
 icon = "/uploads/2020/10/09/pdf-button.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/09/neu_200829_faq_prasentation_cobots_al.pdf"
