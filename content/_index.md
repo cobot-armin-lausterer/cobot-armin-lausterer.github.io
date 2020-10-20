@@ -1,7 +1,12 @@
 +++
+pfeil = ""
 seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coaching, Consulting, Outsourcing, Online Trainings zur Prozessoptimierung"
 title = "COBOTS - Kollaborative Robotersysteme"
 type = "page"
+[Kurzanalyse]
+bild = ""
+content = ""
+titel = ""
 [anwendungsgebiete]
 titel = "Anwendungsgebiete"
 [[anwendungsgebiete.elemente]]
@@ -56,6 +61,9 @@ content = "<p><strong>Analysieren Sie Ihr Potential jetzt!<br></strong>einfach F
 farbe = "blue"
 icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
+[kurse]
+kurs-iframe = ""
+titel = ""
 [leistungen]
 titel = "Unsere Leistungen"
 [[leistungen.elemente]]
