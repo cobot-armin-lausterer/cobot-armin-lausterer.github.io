@@ -152,7 +152,7 @@ text_vorderseite = "sicher"
 [[vorteile.kacheln]]
 farbe = "grey_light"
 icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
-text_ruckseite = "Erweiterungen oder Änderungen lassen sich in kurzer Zeit, mit wenig Aufwand   \n realisieren."
-text_vorderseite = "kurze Rüstzeiten"
+text_ruckseite = "Cobots machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
+text_vorderseite = "kostengünstig"
 
 +++
