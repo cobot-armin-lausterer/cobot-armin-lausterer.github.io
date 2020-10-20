@@ -91,7 +91,7 @@ fields:
     config:
       maxSize: 64
     label: Backgroundpicture
-  - name: vordergrund-bild
+  - name: vordergrund_bild
     type: file
     config:
       maxSize: 64

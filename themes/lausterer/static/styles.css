@@ -396,6 +396,162 @@ footer .footermenu a:last-child {
 .ks.full {
   height: 100%;
 }
+#home #einleitung.grey {
+  background-color: rgba(114, 114, 114, 0.1);
+}
+#home #einleitung .content h3 {
+  color: #1e1e1e;
+  text-align: left;
+  textmargin-bottom: 0.5rem;
+}
+#home #einleitung .teamgrid {
+  width: calc(100% + 2rem);
+  position: relative;
+  margin: 0 -1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#home #einleitung .teamgrid .tcol {
+  width: 48%;
+  position: relative;
+  cursor: pointer;
+}
+#home #einleitung .teamgrid .tcol .hidden {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+}
+#home #einleitung .teamgrid .tcol .visible {
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+}
+#home #einleitung .teamgrid .tcol img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#home #einleitung .teamgrid .tcol .tm {
+  padding: 1rem;
+  width: 100%;
+}
+#home #einleitung .teamgrid .tcol .tm h3,
+#home #einleitung .teamgrid .tcol .tm h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+#home #einleitung .teamgrid .tcol .tm h4 {
+  margin: 0;
+}
+#home #einleitung .teamgrid .tcol .tm.grey {
+  background: #5f6165;
+}
+#home #einleitung .teamgrid .tcol .tm.blue {
+  background: #009dee;
+}
+#home #einleitung .teamgrid .tcol .tm.blue_dark {
+  background: #027bba;
+}
+#home #einleitung .teamgrid .tcol:hover .hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+#home #einleitung .teamgrid .tcol:hover .hidden.grey {
+  background: #5f6165;
+}
+#home #einleitung .teamgrid .tcol:hover .hidden.blue {
+  background: #009dee;
+}
+#home #einleitung .teamgrid .tcol:hover .hidden.blue_dark {
+  background: #027bba;
+}
+#home #einleitung .teamgrid .tcol:hover .visible {
+  display: none;
+}
+@media (max-width: 720px) {
+  #home #einleitung .teamgrid {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  #home #einleitung .teamgrid .tcol {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+  #home #einleitung .teamgrid .tcol .hidden {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+  }
+  #home #einleitung .teamgrid .tcol .visible {
+    z-index: 2;
+  }
+  #home #einleitung .teamgrid .tcol img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  #home #einleitung .teamgrid .tcol .tm {
+    padding: 1rem;
+    width: 100%;
+  }
+  #home #einleitung .teamgrid .tcol .tm h3,
+  #home #einleitung .teamgrid .tcol .tm h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  #home #einleitung .teamgrid .tcol .tm h4 {
+    margin: 0;
+  }
+  #home #einleitung .teamgrid .tcol .tm.grey {
+    background: #5f6165;
+  }
+  #home #einleitung .teamgrid .tcol .tm.blue {
+    background: #009dee;
+  }
+  #home #einleitung .teamgrid .tcol .tm.blue_dark {
+    background: #027bba;
+  }
+  #home #einleitung .teamgrid .tcol:hover .hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  #home #einleitung .teamgrid .tcol:hover .hidden.grey {
+    background: #5f6165;
+  }
+  #home #einleitung .teamgrid .tcol:hover .hidden.blue {
+    background: #009dee;
+  }
+  #home #einleitung .teamgrid .tcol:hover .hidden.blue_dark {
+    background: #027bba;
+  }
+  #home #einleitung .teamgrid .tcol:hover .visible {
+    display: none;
+  }
+}
 #home #videocontainer {
   padding: 2rem;
 }
@@ -492,154 +648,6 @@ footer .footermenu a:last-child {
   text-align: center;
   margin: 0;
 }
-#home #team .teamgrid {
-  width: calc(100% + 2rem);
-  position: relative;
-  margin: 0 -1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-#home #team .teamgrid .tcol {
-  width: 30%;
-  position: relative;
-  cursor: pointer;
-}
-#home #team .teamgrid .tcol .hidden {
-  position: absolute;
-  top: 0;
-  z-index: -1;
-  height: 100%;
-}
-#home #team .teamgrid .tcol .visible {
-  z-index: 2;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: white;
-}
-#home #team .teamgrid .tcol img {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-#home #team .teamgrid .tcol .tm {
-  padding: 1rem;
-  width: 100%;
-}
-#home #team .teamgrid .tcol .tm h3,
-#home #team .teamgrid .tcol .tm h4 {
-  color: white;
-  text-align: center;
-  margin-bottom: 0.5rem;
-}
-#home #team .teamgrid .tcol .tm h4 {
-  margin: 0;
-}
-#home #team .teamgrid .tcol .tm.grey {
-  background: #5f6165;
-}
-#home #team .teamgrid .tcol .tm.blue {
-  background: #009dee;
-}
-#home #team .teamgrid .tcol .tm.blue_dark {
-  background: #027bba;
-}
-#home #team .teamgrid .tcol:hover .hidden {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 2rem;
-  color: white;
-  font-size: 1.2rem;
-}
-#home #team .teamgrid .tcol:hover .hidden.grey {
-  background: #5f6165;
-}
-#home #team .teamgrid .tcol:hover .hidden.blue {
-  background: #009dee;
-}
-#home #team .teamgrid .tcol:hover .hidden.blue_dark {
-  background: #027bba;
-}
-#home #team .teamgrid .tcol:hover .visible {
-  display: none;
-}
-@media (max-width: 720px) {
-  #home #team .teamgrid {
-    flex-direction: column;
-    padding: 0 1rem;
-  }
-  #home #team .teamgrid .tcol {
-    margin: 0 0 1rem 0;
-    width: 100%;
-    position: relative;
-    cursor: pointer;
-  }
-  #home #team .teamgrid .tcol .hidden {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    height: 100%;
-  }
-  #home #team .teamgrid .tcol .visible {
-    z-index: 2;
-  }
-  #home #team .teamgrid .tcol img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: block;
-  }
-  #home #team .teamgrid .tcol .tm {
-    padding: 1rem;
-    width: 100%;
-  }
-  #home #team .teamgrid .tcol .tm h3,
-  #home #team .teamgrid .tcol .tm h4 {
-    color: white;
-    text-align: center;
-    margin-bottom: 0.5rem;
-  }
-  #home #team .teamgrid .tcol .tm h4 {
-    margin: 0;
-  }
-  #home #team .teamgrid .tcol .tm.grey {
-    background: #5f6165;
-  }
-  #home #team .teamgrid .tcol .tm.blue {
-    background: #009dee;
-  }
-  #home #team .teamgrid .tcol .tm.blue_dark {
-    background: #027bba;
-  }
-  #home #team .teamgrid .tcol:hover .hidden {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 2rem;
-    color: white;
-    font-size: 1.2rem;
-  }
-  #home #team .teamgrid .tcol:hover .hidden.grey {
-    background: #5f6165;
-  }
-  #home #team .teamgrid .tcol:hover .hidden.blue {
-    background: #009dee;
-  }
-  #home #team .teamgrid .tcol:hover .hidden.blue_dark {
-    background: #027bba;
-  }
-  #home #team .teamgrid .tcol:hover .visible {
-    display: none;
-  }
-}
 #home #online_semin {
   padding: 2rem 0 4rem 0;
   margin-bottom: 2rem;
@@ -694,52 +702,113 @@ footer .footermenu a:last-child {
   margin-left: -100px !important;
   text-align: center;
 }
-#home #lean_labor {
+#home #cobot {
   margin-top: 4rem;
   padding: 2rem 0 4rem 0;
   position: relative;
   background-color: white!important;
 }
-@media (max-width: 720px) {
-  #home #lean_labor {
-    background-position: bottom right!important;
+@media (max-width: 600px) {
+  #home #cobot {
+    background-position: bottom left!important;
     background-size: 50% auto;
   }
-  #home #lean_labor img {
+  #home #cobot img {
     display: none!important;
   }
 }
-#home #lean_labor img {
+#home #cobot img {
   z-index: 2;
   position: absolute;
-  right: 0;
-  bottom: 7rem;
+  right: -50px;
 }
-#home #lean_labor .lean_labor_c {
+#home #cobot .cobot_c {
   padding: 3rem 3rem 8rem 3rem;
-  width: 50%;
+  width: 100%;
   background: #027bba;
   position: relative;
+  right: 0;
   color: white;
 }
 @media (max-width: 720px) {
-  #home #lean_labor .lean_labor_c {
+  #home #cobot .cobot_c {
     padding: 0 0 4rem 0;
     width: 100%;
     background: transparent;
     color: #027bba;
   }
 }
-#home #lean_labor .lean_labor_c h2 {
+#home #cobot .cobot_c h2 {
   color: white;
 }
-#home #lean_labor .lean_labor_c .morebutton {
+#home #cobot .cobot_c .morebutton {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -1rem;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px !important;
+  text-align: center;
+}
+#home #cobot .cobot_c .morebutton img {
+  z-index: 2;
+  position: left!important;
+  margin-left: 20px!important;
+  left: 0;
+}
+#home #kosten {
+  margin-top: 4rem;
+  padding: 2rem 0 4rem 0;
+  position: relative;
+  background-color: lightgrey!important;
+}
+@media (max-width: 600px) {
+  #home #kosten {
+    background-position: bottom left!important;
+    background-size: 50% auto;
+  }
+  #home #kosten img {
+    display: none!important;
+  }
+}
+#home #kosten img {
+  z-index: 2;
+  position: left!important;
+  right: 0;
+  bottom: 7rem;
+}
+#home #kosten h2 {
+  color: #027bba;
+  position: center!important;
+  text-align: center;
+}
+#home .kostenbutton {
   position: absolute;
   bottom: 0;
   margin-bottom: -1rem;
   left: 50%;
   width: 200px;
   margin-left: -100px !important;
+  text-align: center;
+}
+#home .cobot_c {
+  padding: 3rem 3rem 8rem 3rem;
+  width: 50%;
+  background: #027bba;
+  position: right;
+  color: white;
+}
+@media (max-width: 600px) {
+  #home .cobot_c {
+    padding: 0 0 4rem 0;
+    width: 100%;
+    background: transparent;
+    color: #027bba;
+  }
+}
+#home .cobot_c h1 {
+  color: #027bba;
+  position: center!important;
   text-align: center;
 }
 #leistungen {
