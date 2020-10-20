@@ -145,14 +145,14 @@ icon = "/uploads/2020/10/08/vorteile_flexiblitaet.png"
 text_ruckseite = "Cobots können Vormittags Anlagen bestücken und Nachmittags Teile verpacken"
 text_vorderseite = "flexibel"
 [[vorteile.kacheln]]
+farbe = "grey"
+icon = "/uploads/2020/10/08/vorteile_sicherheit.png"
+text_ruckseite = "Cobots erkennen dieleichteste Berührungund sind deshalb in allen   \n Betriebszuständen absolut sicher, ganz ohne Schutzraum."
+text_vorderseite = "sicher"
+[[vorteile.kacheln]]
 farbe = "grey_light"
 icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
 text_ruckseite = "Erweiterungen oder Änderungen lassen sich in kurzer Zeit, mit wenig Aufwand   \n realisieren."
 text_vorderseite = "kurze Rüstzeiten"
-[[vorteile.kacheln]]
-farbe = "grey"
-icon = "/uploads/2020/10/08/vorteile_sicherheit.png"
-text_ruckseite = "Durch berührungsempfindliche Sensoren ist ein sicheres Hand-in-Hand Arbeiten gewährleistet."
-text_vorderseite = "hohe Sicherheit"
 
 +++
