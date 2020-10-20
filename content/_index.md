@@ -1,7 +1,12 @@
 +++
+pfeil = "/uploads/2020/10/20/demo-button-1.png"
 seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coaching, Consulting, Outsourcing, Online Trainings zur Prozessoptimierung"
 title = "COBOTS - Kollaborative Robotersysteme"
 type = "page"
+[Kurzanalyse]
+bild = "/uploads/2020/10/20/analyse-icon.png"
+content = "<p>jetzt durchführen, schnell &amp; einfach!<br> <br><a href=\"cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf\" title=\"\" target=\"_blank\"> &gt;&gt; einfach .pdf downloaden</a></p>"
+titel = "Kurzanalyse"
 [anwendungsgebiete]
 titel = "Anwendungsgebiete"
 [[anwendungsgebiete.elemente]]
@@ -24,12 +29,12 @@ titel = "Arbeitsbedingungen"
 video = ""
 [cobot]
 backgroundpicture = "/uploads/2020/10/08/cobot_background.png"
-headline = "WAS ist ein COBOT"
-headline2 = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
-text = "<p class=\"p1\">Eine klassische Roboterzelle ist nicht mehr notwendig. Der COBOT wird in die bestehende Arbeitsumgebung integriert. Damit eine sichere und produktive Zusammenarbeit gelingt ist der COBOT mit berührungsempfindlichen Sensoren ausgestattet. Je nach Art und Stärke der Berührung sind verschiedene Reaktions-szenarien programmiert, die stets einen sicheren Betriebszustand gewährleisten. <br> Das Zuführen und Entnehmen von Teilen geschieht auf die ähnliche Weise, wie im manuellen Prozess. Darüber hinaus, lassen sich COBOTS sehr einfach programmieren, eine langwierige Ausbildung ist nicht notwendig. Diese Eigenschaften und Ihre leichte Bauweise lassen es zu, dass Sie sogar mobil an mehreren Arbeitsplätzen eingesetzt werden können.</p>"
-vordergrund_bild = "/uploads/2020/10/08/cobot.png"
+headline = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
+headline2 = ""
+text = "<p></p>"
+vordergrund-bild = "/uploads/2020/10/08/cobot.png"
 [cobot.button]
-content = "<p><strong>Präsentation </strong></p><p>als .pdf downloaden</p>"
+content = "<p><strong>Präsentation<br></strong>als .pdf downloaden</p>"
 farbe = "blue"
 icon = "/uploads/2020/10/09/pdf-button.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/09/neu_200829_faq_prasentation_cobots_al.pdf"
@@ -49,13 +54,16 @@ position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [kosten]
 bild = "/uploads/2020/10/08/kosten_icon.png"
-content = "Typische Investitionen betragen etwa 50-70k€ für die Komplettlösung. Der Return on Invest (ROI) liegt meist deutlich unter 12 Monate. \n\nVoraussetzung ist, dass an der richtigen Stelle im Wertstrom automatisiert wird. Dies kann durch eine sorgfältig durchgeführte Potenzialanalyse sichergestellt werden. \n\nDamit rechnen sich COBOTS speziell bei Anwendungen mit geringen Volumen und hoher Variantenzahl. "
+content = "<p>Typische Investitionen betragen etwa 50-70k€ für die Komplettlösung. Der Return on Invest (ROI) liegt meist deutlich unter 12 Monate. </p><p>Voraussetzung ist, dass an der richtigen Stelle im Wertstrom automatisiert wird. Dies kann durch eine sorgfältig durchgeführte Potenzialanalyse sichergestellt werden. </p><p>Damit rechnen sich COBOTS speziell bei Anwendungen mit geringen Volumen und hoher Variantenzahl.</p>"
 titel = "Was kosten COBOTS? "
 [kosten.button]
 content = "<p><strong>Analysieren Sie Ihr Potential jetzt!<br></strong>einfach Formular downloaden und selbst bewerten</p>"
 farbe = "blue"
 icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
+[kurse]
+kurs-iframe = ""
+titel = "Online Live DEMO"
 [leistungen]
 titel = "Unsere Leistungen"
 [[leistungen.elemente]]
@@ -137,22 +145,22 @@ titelzeile = "Vorteile"
 [[vorteile.kacheln]]
 farbe = "blue_dark"
 icon = "/uploads/2020/10/08/vorteile_einfacheanwendung.png"
-text_ruckseite = "schnelle und einfache Programmierung ohne Experten"
-text_vorderseite = "einfache Anwendung"
+text_ruckseite = "Cobots sind ganz leicht vom Werker selber programmierbar"
+text_vorderseite = "einfach"
 [[vorteile.kacheln]]
 farbe = "blue"
 icon = "/uploads/2020/10/08/vorteile_flexiblitaet.png"
-text_ruckseite = "an mehreren Arbeitsplätzen ohne klassische Roboterzelle"
-text_vorderseite = "flexibler Einsatz"
-[[vorteile.kacheln]]
-farbe = "grey_light"
-icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
-text_ruckseite = "Erweiterungen oder Änderungen lassen sich in kurzer Zeit, mit wenig Aufwand   \n realisieren."
-text_vorderseite = "kurze Rüstzeiten"
+text_ruckseite = "Cobots können Vormittags Anlagen bestücken und Nachmittags Teile verpacken"
+text_vorderseite = "flexibel"
 [[vorteile.kacheln]]
 farbe = "grey"
 icon = "/uploads/2020/10/08/vorteile_sicherheit.png"
-text_ruckseite = "Durch berührungsempfindliche Sensoren ist ein sicheres Hand-in-Hand Arbeiten gewährleistet."
-text_vorderseite = "hohe Sicherheit"
+text_ruckseite = "Cobots erkennen dieleichteste Berührungund sind deshalb in allen   \n Betriebszuständen absolut sicher, ganz ohne Schutzraum."
+text_vorderseite = "sicher"
+[[vorteile.kacheln]]
+farbe = "grey_light"
+icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
+text_ruckseite = "Cobots machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
+text_vorderseite = "kostengünstig"
 
 +++
