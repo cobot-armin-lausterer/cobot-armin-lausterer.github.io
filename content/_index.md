@@ -4,9 +4,9 @@ seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coach
 title = "COBOTS - Kollaborative Robotersysteme"
 type = "page"
 [Kurzanalyse]
-bild = ""
-content = ""
-titel = ""
+bild = "/uploads/2020/10/20/analyse-icon.png"
+content = "<p>jetzt durchführen, schnell &amp; einfach!<br> <br> <a href=\"\" title=\"\" target=\"_blank\">&gt;&gt; einfach .pdf downloaden</a></p>"
+titel = "Kurzanalyse"
 [anwendungsgebiete]
 titel = "Anwendungsgebiete"
 [[anwendungsgebiete.elemente]]
