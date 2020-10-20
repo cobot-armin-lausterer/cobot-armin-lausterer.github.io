@@ -142,8 +142,8 @@ text_vorderseite = "einfach"
 [[vorteile.kacheln]]
 farbe = "blue"
 icon = "/uploads/2020/10/08/vorteile_flexiblitaet.png"
-text_ruckseite = "an mehreren Arbeitsplätzen ohne klassische Roboterzelle"
-text_vorderseite = "flexibler Einsatz"
+text_ruckseite = "Cobots können Vormittags Anlagen bestücken und Nachmittags Teile verpacken"
+text_vorderseite = "flexibel"
 [[vorteile.kacheln]]
 farbe = "grey_light"
 icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
