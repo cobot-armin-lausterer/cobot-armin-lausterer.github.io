@@ -1,5 +1,5 @@
 +++
-pfeil = ""
+pfeil = "/uploads/2020/10/20/demo-button-1.png"
 seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coaching, Consulting, Outsourcing, Online Trainings zur Prozessoptimierung"
 title = "COBOTS - Kollaborative Robotersysteme"
 type = "page"
