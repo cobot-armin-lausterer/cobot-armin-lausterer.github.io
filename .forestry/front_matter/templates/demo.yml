@@ -92,3 +92,5 @@ fields:
   config:
     maxSize: 64
   label: Pfeil
+pages:
+- content/collaborative-roboter-cobots-live-demo.md
