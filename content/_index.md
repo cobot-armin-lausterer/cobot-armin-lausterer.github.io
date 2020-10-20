@@ -63,7 +63,7 @@ icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
 [kurse]
 kurs-iframe = ""
-titel = ""
+titel = "Online Live DEMO"
 [leistungen]
 titel = "Unsere Leistungen"
 [[leistungen.elemente]]
