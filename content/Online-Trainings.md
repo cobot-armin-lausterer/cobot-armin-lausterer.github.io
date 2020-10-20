@@ -16,7 +16,7 @@ einzelkurse = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" s
 titelzeile = "Kurse"
 [menu.main]
 name = "Online-Trainings"
-weight = 1
+weight = 2
 [[content]]
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
 farbe = "blue"

@@ -6,6 +6,9 @@ video_home = "-bFgAvCDFqI"
 [kurse]
 kurs-iframe = ""
 titel = "Online Live DEMO"
+[menu.main]
+name = "Demo"
+weight = 1
 [team]
 blockquote = "<blockquote><h4>Es ist keine andere<br>Technologie in Sicht, die die<br>Produktion unserer mittel-<br>ständischen Unternehmen, in<br>den nächsten Jahren so stark<br>verändern wird, wie COBOTS.</h4></blockquote>"
 [[team.team_einzeln]]
