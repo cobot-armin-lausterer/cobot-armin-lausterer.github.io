@@ -1,5 +1,5 @@
 +++
-pfeil = ""
+pfeil = "/uploads/2020/10/20/demo-button.png"
 seo = ""
 title = "Collaborative Roboter (COBOTS) Live Demo"
 video_home = "-bFgAvCDFqI"
