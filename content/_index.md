@@ -33,6 +33,7 @@ headline = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand
 headline2 = ""
 text = "<p></p>"
 vordergrund-bild = "/uploads/2020/10/08/cobot.png"
+vordergrund_bild = "/uploads/2020/10/08/cobot.png"
 [cobot.button]
 content = "<p><strong>Präsentation<br></strong>als .pdf downloaden</p>"
 farbe = "blue"
