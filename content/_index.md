@@ -17,7 +17,7 @@ titel = "Kapazitätsengpässe"
 video = "bkaADR8AS8E"
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">COBOTS vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
-farbe = "grey_light"
+farbe = "grey"
 link = "https://youtu.be/9jpV58_l5OI"
 titel = "Nacharbeit & Ausschuss"
 video = "9jpV58_l5OI"
@@ -159,7 +159,7 @@ text_ruckseite = "Cobots erkennen dieleichteste Berührungund sind deshalb in al
 text_vorderseite = "sicher"
 [[vorteile.kacheln]]
 farbe = "grey_light"
-icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
+icon = "/uploads/2020/10/23/kostenguenstig.png"
 text_ruckseite = "Cobots machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
 text_vorderseite = "kostengünstig"
 
