@@ -62,6 +62,7 @@ farbe = "blue"
 icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
 [kurse]
+kurs-iframe = ""
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
 titel = "Online Live DEMO"
 [leistungen]
@@ -69,16 +70,19 @@ titel = "Unsere Leistungen"
 [[leistungen.elemente]]
 content_mitte = "<p><strong>Potenzialanalyse </strong></p><ul><li><p>Wir identifizieren Engpässe und Arbeitsplätze, an denen eine Automatisierung für Sie wirklich Sinn macht.</p></li><li><p class=\"p2\">Sie erhalten eine detaillierte Potenzialanalyse, inklusive technische Einschätzung und Kosten-/Nutzenabschätzung.</p></li></ul>"
 content_unten = "<p><strong>Sie investieren garantiert an der richtigen Stelle</strong></p><p><img src=\"/uploads/2020/10/08/kostenlos_eck.png\"></p>"
+farbe = "blue_dark"
 titel_gross = "1"
 titel_hochkant = "Phase"
 [[leistungen.elemente]]
 content_mitte = "<p><strong>Konzeptstudie</strong></p><ul><li><p class=\"p2\">Aufnahme des IST-Prozesses (Wertstrombegehung) inkl. Vorbereitung und Rüsten.</p></li><li><p class=\"p3\">Detaillierte Ausarbeitung des Automatisierungskonzeptes, inklusive Layout, Stücklisten etc.</p></li><li><p class=\"p3\">Ausführliche Wirtschaftlichkeitsberechnung inklusive Angebot.</p></li></ul>"
 content_unten = "<p><strong>Finanzielle Sicherheit</strong></p>"
+farbe = "blue"
 titel_gross = "2"
 titel_hochkant = "Phase"
 [[leistungen.elemente]]
 content_mitte = "<p><strong>Umsetzung</strong></p><ul><li><p class=\"p3\">Wir betreuen Sie bei der Erstellung des finalen Konzeptes.</p></li><li><p class=\"p3\">Wir begleiten Sie beim Aufbau und der Inbetriebnahme.</p></li><li><p class=\"p3\">Wir schulen und trainieren Ihre Mitarbeiter.</p></li></ul>"
 content_unten = "<p><strong>Damit ist die Nachhaltigkeit Ihrer Investition gewährleistet</strong></p><p class=\"p4\"></p>"
+farbe = "grey"
 titel_gross = "3"
 titel_hochkant = "Phase"
 [videos]
