@@ -17,7 +17,7 @@ titel = "Kapazitätsengpässe"
 video = ""
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">COBOTS vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
-farbe = "grey_light"
+farbe = "grey"
 link = "https://youtu.be/9jpV58_l5OI"
 titel = "Nacharbeit & Ausschuss"
 video = ""
