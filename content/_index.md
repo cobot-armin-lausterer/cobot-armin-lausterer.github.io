@@ -14,25 +14,24 @@ content = "<p class=\"p2\">Cobots minimieren Wartezeiten von Engpassmaschinen, d
 farbe = "blue"
 link = " https://youtu.be/bkaADR8AS8E"
 titel = "Kapazitätsengpässe"
-video = ""
+video = "bkaADR8AS8E"
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">COBOTS vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
 farbe = "grey_light"
 link = "https://youtu.be/9jpV58_l5OI"
 titel = "Nacharbeit & Ausschuss"
-video = ""
+video = "9jpV58_l5OI"
 [[anwendungsgebiete.elemente]]
 content = "<p class=\"p2\">COBOTS übernehmen Arbeiten die durch Lärm, Staub, Gefahrstoffe, Position oder -ergonomie für Menschen dauerhaft schädlich sind.</p>"
 farbe = "blue_dark"
 link = "https://youtu.be/7OBmVdUAdgk"
 titel = "Arbeitsbedingungen"
-video = ""
+video = "7OBmVdUAdgk"
 [cobot]
 backgroundpicture = "/uploads/2020/10/08/cobot_background.png"
 headline = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
 headline2 = ""
 text = "<p></p>"
-vordergrund-bild = "/uploads/2020/10/08/cobot.png"
 vordergrund_bild = "/uploads/2020/10/08/cobot.png"
 [cobot.button]
 content = "<p><strong>Präsentation<br></strong>als .pdf downloaden</p>"
@@ -63,7 +62,7 @@ farbe = "blue"
 icon = "/uploads/2020/10/08/potenial_analyse_icon.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
 [kurse]
-kurs-iframe = ""
+kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
 titel = "Online Live DEMO"
 [leistungen]
 titel = "Unsere Leistungen"

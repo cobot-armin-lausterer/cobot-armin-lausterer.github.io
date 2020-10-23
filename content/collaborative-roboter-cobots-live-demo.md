@@ -4,7 +4,7 @@ seo = ""
 title = "Collaborative Roboter (COBOTS) Live Demo"
 video_home = "-bFgAvCDFqI"
 [kurse]
-kurs-iframe = ""
+kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
 titel = "Online Live DEMO"
 [menu.main]
 name = "Demo"
