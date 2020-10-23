@@ -105,9 +105,9 @@
       <h2>{{.titel}}</h2>
       <div class="ui three column grid">
         {{range .elemente}}
-        <div class="column {{.farbe}}">
+        <div class="column ">
 
-          <div class="block">
+          <div class="block {{.farbe}}">
             <div
               class="ui embed"
               data-source="youtube"
@@ -117,7 +117,7 @@
              ></div>
 
             <div class="content">
-              {{.titel}}
+              <div class="AGtitel">{{.titel}}</div>
             </div>
             <div class="content">
               {{.content|safeHTML}}
@@ -163,10 +163,11 @@
     <div class="ui container">
     <h2>{{.titel}}</h2>
     <div class="ui three column grid">
+      <div class="block">
       {{range .elemente}}
       <div class="column">
         <div class="titel_gross">
-          <h3>{{.titel_gross}}</h3>
+          {{.titel_gross}}
         </div>
         <div class="titel_hochkant">
           <h3>{{.titel_hochkant}}</h3>
@@ -176,6 +177,7 @@
         </div>
       </div>
     {{end}}
+  </div>
     </div>
   </div>
   {{end}}

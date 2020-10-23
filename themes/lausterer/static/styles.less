@@ -396,6 +396,35 @@ footer{
   }
 }
 #home{
+  #leistungen{
+    padding-bottom: 2rem;
+    h2{
+      text-align:center;
+      font-size:3rem;
+      padding:3rem 0;
+    }
+    .titel_gross{
+      text-align:center;
+      font-size:13rem;
+      color:white;
+      font-weight:700;
+    }
+    .block{
+      &.grey{
+        background:@grey;
+      }
+      &.blue{
+        background:@blue;
+      }
+      &.blue_dark{
+        background:@blue_dark;
+      }
+
+
+
+  }
+
+
   #einleitung{
     &.grey{
       background-color: @grey_light2;
@@ -672,6 +701,7 @@ footer{
       text-align:left;
       padding:0rem 0;
       font-size: 1.2rem;
+      a{color:white;}
     }
     img{
       width:100%;
@@ -840,8 +870,12 @@ footer{
       text-align:center;
       padding:1rem 0rem 1rem 0rem;
       color:white;
+
+      .AGtitel{
+        font-size:1.4rem;
+      }
     }
-    .column{
+    .block{
       &.grey{
         background:@grey;
       }

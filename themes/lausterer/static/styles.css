@@ -396,6 +396,20 @@ footer .footermenu a:last-child {
 .ks.full {
   height: 100%;
 }
+#home #leistungen {
+  padding-bottom: 2rem;
+}
+#home #leistungen h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 3rem 0;
+}
+#home #leistungen .titel_gross {
+  text-align: center;
+  font-size: 13rem;
+  color: white;
+  font-weight: 700;
+}
 #home #einleitung.grey {
   background-color: rgba(114, 114, 114, 0.1);
 }
@@ -665,6 +679,9 @@ footer .footermenu a:last-child {
   padding: 0rem 0;
   font-size: 1.2rem;
 }
+#home #kurzanalyse .content a {
+  color: white;
+}
 #home #kurzanalyse img {
   width: 100%;
   padding: 1rem 1rem 0rem 6rem;
@@ -832,13 +849,16 @@ footer .footermenu a:last-child {
   padding: 1rem 0rem 1rem 0rem;
   color: white;
 }
-#home #anwendungsgebiete .column.grey {
+#home #anwendungsgebiete .content .AGtitel {
+  font-size: 1.4rem;
+}
+#home #anwendungsgebiete .block.grey {
   background: #5f6165;
 }
-#home #anwendungsgebiete .column.blue {
+#home #anwendungsgebiete .block.blue {
   background: #009dee;
 }
-#home #anwendungsgebiete .column.blue_dark {
+#home #anwendungsgebiete .block.blue_dark {
   background: #027bba;
 }
 #home .pfeil {
