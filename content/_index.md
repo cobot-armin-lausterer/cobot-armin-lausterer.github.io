@@ -160,7 +160,7 @@ text_ruckseite = "Cobots erkennen dieleichteste Berührungund sind deshalb in al
 text_vorderseite = "sicher"
 [[vorteile.kacheln]]
 farbe = "grey_light"
-icon = "/uploads/2020/10/08/vorteile_ruestzeit.png"
+icon = "/uploads/2020/10/23/kostenguenstig.png"
 text_ruckseite = "Cobots machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
 text_vorderseite = "kostengünstig"
 
