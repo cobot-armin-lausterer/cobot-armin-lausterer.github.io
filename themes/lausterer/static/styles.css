@@ -441,13 +441,7 @@ footer .footermenu a:last-child {
   padding: 1rem;
   position: relative;
   min-height: 120px;
-}
-#home #leistungen .content_unten img {
-  height: 100px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  display: inline-block;
+  background: url(/uploads/2020/10/08/kostenlos_eck.png) right bottom no-repeat;
 }
 #home #leistungen .block.grey {
   background: #5f6165;
