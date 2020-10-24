@@ -130,7 +130,7 @@ link = "https://www.youtube.com/playlist?list=PLEQlh37sPVWEHyPmjoI8WhN5E1BwYVSoc
 titel = "Schweißen & Kleben"
 video = ""
 [[videos.elemente]]
-farbe = "grey"
+farbe = "blue_dark"
 hintergrundbild = "/uploads/2020/10/08/verpacken.jpg"
 icon = "/uploads/2020/10/08/verpacken.png"
 link = "https://www.youtube.com/playlist?list=PLEQlh37sPVWFz3PXyz3gSpF1T5voh6V3C"
