@@ -76,24 +76,22 @@
   <div id="vorteile" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
     <div class="ui container">
       <h2>{{.titelzeile}}</h2>
-       <div class="ui four column grid">
-        {{range .kacheln}}
-          <div class="ui column computer only">
-            
-            <div class="tm  {{.farbe}}">
-              <div class="visible content {{.farbe}}">
-                <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_200" )}} "/>
-                {{.text_vorderseite|safeHTML}}
+       <div  class="ui four column grid">
+         <div class="row stretched">
+          {{range .kacheln}}
+            <div class="ui column computer only">
+              <div class="tm {{.farbe}}">
+                <div class="content vorderseite">
+                  <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_200" )}} "/>
+                  {{.text_vorderseite|safeHTML}}
+                </div>
+                <div class="content">
+                  {{.text_ruckseite|markdownify}}
+                </div>
               </div>
-              <div class="hidden content {{.farbe}}">
-                {{.text_ruckseite|markdownify}}
-              </div>
-            
             </div>
-            
-          </div>
-        
-        {{end}}
+          {{end}}
+        </div>
       </div>
     </div>
   </div>
@@ -104,12 +102,12 @@
     <div class="ui container">
       <h2>{{.titel}}</h2>
       <div class="ui three column grid">
-        {{range .elemente}}
-        <div class="column ">
-
-          <div class="block {{.farbe}}">
-            <div
-              class="ui embed"
+        <div class="row stretched">
+          {{range .elemente}}
+          <div class="column ">
+            <div class="block {{.farbe}}">
+             <div
+              class="ui embed active"
               data-source="youtube"
               autoplay
               data-id="{{ .Params.anwendungsgebiete.elemente.video}}"
@@ -124,8 +122,9 @@
             </div>
           </div>
       
-        </div>
+          </div>
         {{end}}
+      </div>
       </div>
     </div>
   </div>
@@ -163,17 +162,18 @@
     <div class="ui container">
     <h2>{{.titel}}</h2>
     <div class="ui three column grid">
-      <div class="block">
       {{range .elemente}}
       <div class="column">
-        <div class="titel_gross">
-          {{.titel_gross}}
-        </div>
-        <div class="titel_hochkant">
-          <h3>{{.titel_hochkant}}</h3>
-        </div>
-        <div class="content_mitte">
-          <h3>{{.content_mitte}}</h3>
+        <div class="block {{.farbe}}">
+          <div class="titel_gross">
+            {{.titel_gross}}
+          </div>
+          <div class="titel_hochkant">
+            {{.titel_hochkant}}
+          </div>
+          <div class="content_mitte">
+            {{.content_mitte|safeHTML}}
+          </div>
         </div>
       </div>
     {{end}}

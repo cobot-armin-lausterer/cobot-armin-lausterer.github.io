@@ -410,6 +410,25 @@ footer .footermenu a:last-child {
   color: white;
   font-weight: 700;
 }
+#home #leistungen .titel_hochkant {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+#home #leistungen .content_mitte {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+#home #leistungen .block.grey {
+  background: #5f6165;
+}
+#home #leistungen .block.blue {
+  background: #009dee;
+}
+#home #leistungen .block.blue_dark {
+  background: #027bba;
+}
 #home #einleitung.grey {
   background-color: rgba(114, 114, 114, 0.1);
 }
@@ -569,7 +588,7 @@ footer .footermenu a:last-child {
 #home #vorteile {
   padding-bottom: 0rem;
   padding-top: 5rem;
-  margin: 3rem 0 3rem 0;
+  margin: 3rem 0 11rem 0;
   position: relative;
 }
 #home #vorteile .morebutton {
@@ -611,6 +630,22 @@ footer .footermenu a:last-child {
   height: 100%;
   justify-content: center;
 }
+#home #vorteile .column .tm {
+  height: 100%;
+  margin-bottom: -8rem;
+}
+#home #vorteile .column .tm.grey {
+  background: #5f6165;
+}
+#home #vorteile .column .tm.blue {
+  background: #009dee;
+}
+#home #vorteile .column .tm.blue_dark {
+  background: #027bba;
+}
+#home #vorteile .column .tm.grey_light {
+  background: #adadad;
+}
 #home #vorteile .column .content {
   padding: 1rem;
   display: flex;
@@ -619,6 +654,11 @@ footer .footermenu a:last-child {
   justify-content: center;
   align-items: center;
   color: white;
+}
+#home #vorteile .column .content.vorderseite {
+  color: white;
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 @media (max-width: 720px) {
   #home #vorteile .column .content {
@@ -632,12 +672,11 @@ footer .footermenu a:last-child {
   }
 }
 #home #vorteile .column .content img {
-  height: 100%;
+  margin-bottom: 2rem;
 }
 @media (max-width: 720px) {
   #home #vorteile .column .content img {
     height: 200px;
-    margin-bottom: 2rem;
   }
 }
 #home #vorteile .column .content.visible {
@@ -650,18 +689,6 @@ footer .footermenu a:last-child {
 }
 #home #vorteile .column .content ul li:before {
   color: white!important;
-}
-#home #vorteile .column .content.grey {
-  background: #5f6165;
-}
-#home #vorteile .column .content.blue {
-  background: #009dee;
-}
-#home #vorteile .column .content.blue_dark {
-  background: #027bba;
-}
-#home #vorteile .column .content.grey_light {
-  background: #adadad;
 }
 #home #kurzanalyse {
   padding-bottom: 3rem;
