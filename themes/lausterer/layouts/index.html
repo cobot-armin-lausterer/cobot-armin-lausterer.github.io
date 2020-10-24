@@ -10,9 +10,9 @@
   <div id="einleitung" class="grey">
     <div class="ui container">
       
-      <div class="ui grid two column">
+      <div class="ui grid two column stackable mobile-reverse">
         <div class="column">
-          <h2>{{.content|safeHTML}}</h2>
+          {{.content|safeHTML}}
         </div>
         <div class="column">
           <div class="teamgrid" style="margin-bottom:4rem">
@@ -27,7 +27,7 @@
               </div>
                 <div class="hidden content {{.farbe}}">
                     {{.kachelruckseite|markdownify}}
-                  </div>
+                </div>
             </div>
             {{end}}
           </div>
@@ -40,7 +40,7 @@
   {{with .Params.cobot}}
   <div id="cobot" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) left top no-repeat; background-size:50% auto">
     <div class="ui container">
-      <div class="ui grid two column">
+      <div class="ui grid two column stackable">
         <div class="column">
           <img id="imgvordergrund"src="{{partial "imgUrl" (dict "img" .vordergrund_bild "params" "c_scale,f_auto,w_400" )}} "/>
         </div>
@@ -54,10 +54,8 @@
             </div>
           </div>
           <a class="morebutton_icon" href="{{relref $p .buttonlink}}">
-            
             <img src="{{partial "imgUrl" (dict "img" .button.icon "params" "c_scale,f_auto,w_40" )}} "/>
             <div>{{.button.content|safeHTML}}</div>
-          
           </a>
         </div>
 
@@ -76,13 +74,13 @@
   <div id="vorteile" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
     <div class="ui container">
       <h2>{{.titelzeile}}</h2>
-       <div  class="ui four column grid">
+       <div  class="ui four column grid stackable">
          <div class="row stretched">
           {{range .kacheln}}
-            <div class="ui column computer only">
+            <div class="ui column only">
               <div class="tm {{.farbe}}">
                 <div class="content vorderseite">
-                  <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_200" )}} "/>
+                  <img src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_400" )}} "/>
                   {{.text_vorderseite|safeHTML}}
                 </div>
                 <div class="content">
@@ -101,7 +99,7 @@
   <div id="anwendungsgebiete">
     <div class="ui container">
       <h2>{{.titel}}</h2>
-      <div class="ui three column grid">
+      <div class="ui three column grid stackable">
         <div class="row stretched">
           {{range .elemente}}
           <div class="column ">
@@ -110,7 +108,7 @@
               class="ui embed active"
               data-source="youtube"
               autoplay
-              data-id="{{ .Params.anwendungsgebiete.elemente.video}}"
+              data-id="{{.video}}"
               data-icon="video"
              ></div>
 
@@ -134,9 +132,9 @@
   <div id="kurzanalyse">
     <div class="ui container">
      
-      <div class="three column ui grid">
-       <div class="column">
-           <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_200" )}} "/>
+      <div class="three column ui grid stackable">
+       <div class="column computer only">
+           <img src="{{partial "imgUrl" (dict "img" .bild "params" "c_scale,f_auto,w_400" )}} "/>
        </div>
       
       <div class="column">
@@ -166,19 +164,22 @@
         {{range .elemente}}
         <div class="column">
           <div class="block {{.farbe}}">
-            <div class="titel_gross">
-              {{.titel_gross}}
-              <div class="titel_hochkant">
-                {{.titel_hochkant}}
+            <div class="blockback">
+              <div class="titel_gross">
+                {{.titel_gross}}
+                <div class="titel_hochkant">
+                  {{.titel_hochkant}}
+                </div>
+              </div>
+              
+              <div class="content_mitte">
+                {{.content_mitte|safeHTML}}
+              </div>
+              <div class="content_unten">
+                {{.content_unten|safeHTML}}
               </div>
             </div>
             
-            <div class="content_mitte">
-              {{.content_mitte|safeHTML}}
-            </div>
-            <div class="content_unten">
-              {{.content_unten|safeHTML}}
-            </div>
           </div>
         </div>
         {{end}}
@@ -209,40 +210,29 @@
   {{with .Params.videos}}
   <div class="ui container">
   <div id="videos" >
-    <h2>{{.titel}}</h2>
     <div class="blue">
       <div class="ui container">
-        
-        <div class="ui stackable mobile-reverse grid">
-          <div class="ui four wide column computer only" style="background:url({{partial "imgUrl" (dict "img" .backgroundpicture "params" "q_auto" )}}) center center no-repeat; background-size:cover">
-
+        <div class="ui stackable grid">
+          <div class="ui two wide column computer only">
+            <h2>{{.titel}}</h2>
           </div>
-          <div class="ui twelve wide column">
-            <div class="ui stackable two column grid rg">
-              {{ range $x,$k := .videos }} {{if lt $x 2}}
-              <div class="ui column">
-              <div class="block {{.farbe}}">
-                <h4>{{.titel_}}</h4>
-                {{.textkunden|safeHTML}}
-              </div>
-              </div>
-              {{end}}{{end}}
-            </div>
-            <div class="ui stackable two column grid rg">
-                {{ range $x,$k := .kunden }} {{if gt $x 1}}
-                <div class="ui column">
-                <div class="block {{.farbe}}">
-                  <h4>{{.titel_}}</h4>
-                  {{.textkunden|safeHTML}}
-                </div>
-                </div>
-                {{end}}{{end}}
-                <div class="ui column">
-                  <div class="block blue">
-                    <a class="bb" href="{{relref $p .buttonlink}}">{{.grosser_button}}</a>
+          <div class="ui fourteen wide column">
+            <div class="ui stackable four column grid innerright">
+              {{ range .elemente }}
+              <div class="ui column" style="background:url({{partial "imgUrl" (dict "img" .hintergrundbild "params" "q_auto" )}}) center center no-repeat; background-size:cover">
+                <a href="{{.link}}" target="_blank">
+                  <div class="block {{.farbe}}">
+                    <div class="wr11">
+                      <img class="timg" src="{{partial "imgUrl" (dict "img" .icon "params" "c_scale,f_auto,w_200" )}} "/>
+                    </div>
+                    <div class="wr12">
+                      <h4>{{.titel}}</h4>
+                      <i class="youtube icon"></i>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
+              {{end}}
             </div>
           </div>
         </div>
