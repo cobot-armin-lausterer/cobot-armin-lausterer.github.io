@@ -406,18 +406,48 @@ footer{
     .titel_gross{
       text-align:center;
       font-size:13rem;
+      line-height:1em;
       color:white;
       font-weight:700;
+      border-bottom:2px solid white;
+      .titel_hochkant{
+        text-align:center;
+        font-size:2rem;
+        color:white;
+        position:absolute;
+        left:0;
+        top:0;
+        -ms-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      }
     }
-    .titel_hochkant{
-      text-align:center;
-      font-size:2rem;
-      color:white;
-    }
+    
     .content_mitte{
+      text-align:left;
+      font-size:1rem;
+      color:white;
+      border-bottom:2px solid white;
+      padding:1rem;
+      li{
+        margin-left:1em;
+      }
+    }
+    .content_unten{
       text-align:center;
       font-size:1rem;
       color:white;
+      padding:1rem;
+      position:relative;
+      min-height:120px;
+      img{
+        height:100px;
+        position:absolute;
+        right:0;
+        bottom:0;
+        display:inline-block;
+      }
     }
     .block{
       &.grey{
@@ -430,9 +460,6 @@ footer{
         background:@blue_dark;
       }
     }
-
-
-
   }
 
 

@@ -407,18 +407,47 @@ footer .footermenu a:last-child {
 #home #leistungen .titel_gross {
   text-align: center;
   font-size: 13rem;
+  line-height: 1em;
   color: white;
   font-weight: 700;
+  border-bottom: 2px solid white;
 }
-#home #leistungen .titel_hochkant {
+#home #leistungen .titel_gross .titel_hochkant {
   text-align: center;
   font-size: 2rem;
   color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 #home #leistungen .content_mitte {
+  text-align: left;
+  font-size: 1rem;
+  color: white;
+  border-bottom: 2px solid white;
+  padding: 1rem;
+}
+#home #leistungen .content_mitte li {
+  margin-left: 1em;
+}
+#home #leistungen .content_unten {
   text-align: center;
   font-size: 1rem;
   color: white;
+  padding: 1rem;
+  position: relative;
+  min-height: 120px;
+}
+#home #leistungen .content_unten img {
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
 }
 #home #leistungen .block.grey {
   background: #5f6165;

@@ -161,23 +161,29 @@
   <div id="leistungen" class="grey">
     <div class="ui container">
     <h2>{{.titel}}</h2>
-    <div class="ui three column grid">
-      {{range .elemente}}
-      <div class="column">
-        <div class="block {{.farbe}}">
-          <div class="titel_gross">
-            {{.titel_gross}}
-          </div>
-          <div class="titel_hochkant">
-            {{.titel_hochkant}}
-          </div>
-          <div class="content_mitte">
-            {{.content_mitte|safeHTML}}
+    <div class="ui three column grid stackable">
+      <div class="row stretched">
+        {{range .elemente}}
+        <div class="column">
+          <div class="block {{.farbe}}">
+            <div class="titel_gross">
+              {{.titel_gross}}
+              <div class="titel_hochkant">
+                {{.titel_hochkant}}
+              </div>
+            </div>
+            
+            <div class="content_mitte">
+              {{.content_mitte|safeHTML}}
+            </div>
+            <div class="content_unten">
+              {{.content_unten|safeHTML}}
+            </div>
           </div>
         </div>
+        {{end}}
       </div>
-    {{end}}
-  </div>
+    </div>
     </div>
   </div>
   {{end}}
