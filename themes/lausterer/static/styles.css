@@ -446,7 +446,8 @@ footer .footermenu a:last-child {
 }
 #home #leistungen .content_unten {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
   color: white;
   padding: 1rem;
   position: relative;
@@ -1242,6 +1243,402 @@ footer .footermenu a:last-child {
 }
 #home #cobot .cobot_c h2 {
   color: white;
+}
+.subpage.cobotdemo .pfeil {
+  margin: 2rem 0;
+}
+.subpage.cobotdemo .pfeil img {
+  max-width: 100%;
+}
+.subpage .teamgrid {
+  width: calc(100% + 2rem);
+  position: relative;
+  margin: 0 -1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subpage .teamgrid .tcol {
+  width: 48%;
+  position: relative;
+  cursor: pointer;
+}
+.subpage .teamgrid .tcol .hidden {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+}
+.subpage .teamgrid .tcol .visible {
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+}
+.subpage .teamgrid .tcol img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.subpage .teamgrid .tcol .tm {
+  padding: 1rem;
+  width: 100%;
+}
+.subpage .teamgrid .tcol .tm h3,
+.subpage .teamgrid .tcol .tm h4 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.subpage .teamgrid .tcol .tm h4 {
+  margin: 0;
+}
+.subpage .teamgrid .tcol .tm.grey {
+  background: #5f6165;
+}
+.subpage .teamgrid .tcol .tm.blue {
+  background: #009dee;
+}
+.subpage .teamgrid .tcol .tm.blue_dark {
+  background: #027bba;
+}
+.subpage .teamgrid .tcol:hover .hidden {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.subpage .teamgrid .tcol:hover .hidden.grey {
+  background: #5f6165;
+}
+.subpage .teamgrid .tcol:hover .hidden.blue {
+  background: #009dee;
+}
+.subpage .teamgrid .tcol:hover .hidden.blue_dark {
+  background: #027bba;
+}
+.subpage .teamgrid .tcol:hover .visible {
+  display: none;
+}
+@media (max-width: 720px) {
+  .subpage .teamgrid {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .subpage .teamgrid .tcol {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+  }
+  .subpage .teamgrid .tcol .hidden {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+  }
+  .subpage .teamgrid .tcol .visible {
+    z-index: 2;
+  }
+  .subpage .teamgrid .tcol img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  .subpage .teamgrid .tcol .tm {
+    padding: 1rem;
+    width: 100%;
+  }
+  .subpage .teamgrid .tcol .tm h3,
+  .subpage .teamgrid .tcol .tm h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .subpage .teamgrid .tcol .tm h4 {
+    margin: 0;
+  }
+  .subpage .teamgrid .tcol .tm.grey {
+    background: #5f6165;
+  }
+  .subpage .teamgrid .tcol .tm.blue {
+    background: #009dee;
+  }
+  .subpage .teamgrid .tcol .tm.blue_dark {
+    background: #027bba;
+  }
+  .subpage .teamgrid .tcol:hover .hidden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .subpage .teamgrid .tcol:hover .hidden.grey {
+    background: #5f6165;
+  }
+  .subpage .teamgrid .tcol:hover .hidden.blue {
+    background: #009dee;
+  }
+  .subpage .teamgrid .tcol:hover .hidden.blue_dark {
+    background: #027bba;
+  }
+  .subpage .teamgrid .tcol:hover .visible {
+    display: none;
+  }
+}
+.subpage.solutions .timg,
+.subpage.online .timg,
+.subpage.unternehmen .timg,
+.subpage.solutions .timg,
+.subpage.outsourcing .timg,
+.subpage.consulting .timg,
+.subpage.coaching .timg {
+  margin-bottom: 2rem;
+}
+@media (max-width: 720px) {
+  .subpage.solutions .tim,
+  .subpage.online .tim,
+  .subpage.unternehmen .tim,
+  .subpage.solutions .tim,
+  .subpage.outsourcing .tim,
+  .subpage.consulting .tim,
+  .subpage.coaching .tim {
+    margin: 0!important;
+  }
+}
+.subpage.online section {
+  margin-bottom: 2rem!important;
+}
+.subpage.online .full {
+  position: relative;
+  padding-bottom: 50px!important;
+}
+.subpage.online .full li:last-child {
+  padding-bottom: 0;
+}
+.subpage.online .full img {
+  height: 100px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 0.5rem;
+  z-index: 0;
+}
+.subpage.online #krit li:before {
+  content: "\f058";
+  font-family: outline-icons;
+  color: #009dee;
+}
+.subpage.unternehmen h3.hd {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
+.subpage.unternehmen .ks {
+  height: 100%;
+}
+.subpage.unternehmen #werte {
+  margin-top: 1rem;
+}
+.subpage.unternehmen #werte .ah {
+  cursor: pointer;
+  padding-left: 1rem;
+}
+.subpage.unternehmen #werte .ah h4 {
+  padding: 0 0.5rem 0 1em;
+}
+.subpage.unternehmen #werte .ah h4:before {
+  content: "\f106";
+  font-family: icons;
+  color: #5f6165;
+  margin: 0 0.4rem 0 -1.4rem;
+  font-size: 1.3em;
+}
+.subpage.unternehmen #werte .ah .ctah {
+  padding-left: 0.5rem;
+}
+.subpage.unternehmen #werte .ah.closed .ctah {
+  display: none;
+}
+.subpage.unternehmen #werte .ah.closed h4:before {
+  content: "\f107";
+  color: #027bba;
+}
+.subpage.unternehmen #intro {
+  position: relative;
+}
+.subpage.unternehmen #team {
+  margin-top: 2rem;
+  margin: 1rem 0;
+}
+.subpage.unternehmen #team section.tm {
+  margin-top: 1rem;
+}
+.subpage.unternehmen #team ul > li li {
+  padding: 0;
+}
+.subpage.unternehmen #team ul > li li p {
+  display: inline-block !important;
+}
+.subpage.unternehmen #team ul > li li:before {
+  content: "-";
+  font-family: icons;
+  color: #009dee;
+  margin: 0 0.4rem 0 -0.8em;
+  font-size: 0.8em;
+}
+.subpage.coaching .ct.ks,
+.subpage.outsourcing .ct.ks {
+  margin-bottom: 1rem;
+}
+.subpage.outsourcing .column h3,
+.subpage.coaching .column h3,
+.subpage.solutions .column h3,
+.subpage.unternehmen .column h3,
+.subpage.online .column h3 {
+  line-height: 1.3em;
+}
+.subpage.outsourcing .column .pt ul,
+.subpage.coaching .column .pt ul,
+.subpage.solutions .column .pt ul,
+.subpage.unternehmen .column .pt ul,
+.subpage.online .column .pt ul {
+  padding-top: calc(1.3em + 1rem) !important;
+}
+.subpage.outsourcing .content img,
+.subpage.coaching .content img,
+.subpage.solutions .content img,
+.subpage.unternehmen .content img,
+.subpage.online .content img {
+  max-width: 100%;
+}
+.subpage.outsourcing h2,
+.subpage.coaching h2,
+.subpage.solutions h2,
+.subpage.unternehmen h2,
+.subpage.online h2 {
+  padding: 0.5rem 0;
+  background: white;
+  color: #009dee;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.subpage.outsourcing ul,
+.subpage.coaching ul,
+.subpage.solutions ul,
+.subpage.unternehmen ul,
+.subpage.online ul {
+  position: relative;
+}
+.subpage.outsourcing li,
+.subpage.coaching li,
+.subpage.solutions li,
+.subpage.unternehmen li,
+.subpage.online li {
+  list-style-type: none;
+  padding: 0 0 1rem 2rem;
+  line-height: 1.3em;
+}
+.subpage.outsourcing li p,
+.subpage.coaching li p,
+.subpage.solutions li p,
+.subpage.unternehmen li p,
+.subpage.online li p {
+  display: inline-block !important;
+}
+.subpage.outsourcing li:before,
+.subpage.coaching li:before,
+.subpage.solutions li:before,
+.subpage.unternehmen li:before,
+.subpage.online li:before {
+  content: "\f35a";
+  font-family: outline-icons;
+  color: #009dee;
+  margin: 0 0.4rem 0 -1.6rem;
+  font-size: 1.3em;
+}
+.subpage.testimonial .content img,
+.subpage.projekte .content img,
+.subpage.lean .content img {
+  max-width: 100%;
+}
+.subpage.testimonial .ks,
+.subpage.projekte .ks,
+.subpage.lean .ks {
+  margin-top: 2rem!important;
+}
+.subpage.testimonial .ks.full,
+.subpage.projekte .ks.full,
+.subpage.lean .ks.full {
+  height: 100%;
+}
+.subpage.testimonial .ks .column > div,
+.subpage.projekte .ks .column > div,
+.subpage.lean .ks .column > div {
+  position: relative;
+}
+.subpage.testimonial .ks .content ul,
+.subpage.projekte .ks .content ul,
+.subpage.lean .ks .content ul {
+  padding: 0;
+  margin: 0;
+}
+.subpage.testimonial .ks .content ul li,
+.subpage.projekte .ks .content ul li,
+.subpage.lean .ks .content ul li {
+  list-style-position: outside;
+  margin-left: 1em;
+}
+.subpage.testimonial .ks .content p,
+.subpage.projekte .ks .content p,
+.subpage.lean .ks .content p {
+  margin: 0.5rem 0;
+}
+.subpage.kontakt ul.klist {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 720px) {
+  .subpage.kontakt ul.klist {
+    margin-top: 1rem;
+  }
+}
+.subpage.kontakt ul.klist li {
+  list-style-type: none;
+  position: relative;
+  padding: 0 0 0 3rem!important;
+  min-height: 2rem;
+  margin-bottom: 1rem;
+}
+.subpage.kontakt ul.klist li .ki {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #027bba;
+  padding: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+.subpage.kontakt ul.klist li .ki i {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 0.2em;
+  margin-top: 0.2em;
 }
 .subpage.cobotdemo .pfeil {
   margin: 2rem 0;

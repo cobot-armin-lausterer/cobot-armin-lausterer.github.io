@@ -448,7 +448,8 @@ footer{
     }
     .content_unten{
       text-align:center;
-      font-size:1rem;
+      font-size:1.3rem;
+      font-weight: bold;
       color:white;
       padding:1rem;
       position:relative;
@@ -1254,6 +1255,378 @@ footer{
       }
       
 
+    }
+  }
+}
+.subpage{
+  &.cobotdemo{
+  .pfeil{
+      margin:2rem 0;
+      img{
+        max-width:100%;
+      }
+    }
+  }
+  .teamgrid{
+    width:calc(100% + 2rem);
+    position:relative;
+    margin: 0 -1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .tcol{
+      width:48%;
+      position:relative;
+      cursor:pointer;
+      .hidden{
+        position:absolute;
+        top:0;
+        z-index:-1;
+        height:100%;
+      }
+      .visible{
+        z-index:2;
+        height:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        background:white;
+      }
+      img{
+        width:100%;
+        margin:0;
+        padding:0;
+        display:block;
+      }
+      .tm{
+        padding:1rem;
+        h3,h4{
+          color:white;
+          text-align:center;
+          margin-bottom:0.5rem;
+        }
+        h4{
+          margin:0;
+        }
+        &.grey{
+          background:@grey;
+        }
+        &.blue{
+          background:@blue;
+        }
+        &.blue_dark{
+          background:@blue_dark;
+        }
+        width:100%;
+      }
+      &:hover{
+        .hidden{
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width:100%;
+          padding:2rem;
+          color:white;
+          font-size:1.2rem;
+          &.grey{
+            background:@grey;
+          }
+          &.blue{
+            background:@blue;
+          }
+          &.blue_dark{
+            background:@blue_dark;
+          }
+        }
+        .visible{
+          display:none;
+        }
+      }
+    }
+    @media (max-width: 720px){
+      flex-direction: column;
+      padding: 0 1rem;
+      .tcol{
+        margin: 0 0 1rem 0;
+        width:100%;
+        position:relative;
+        cursor:pointer;
+        .hidden{
+          position:absolute;
+          top:0;
+          z-index:-1;
+          height:100%;
+        }
+        .visible{
+          z-index:2;
+        }
+        img{
+          width:100%;
+          margin:0;
+          padding:0;
+          display:block;
+        }
+        .tm{
+          padding:1rem;
+          h3,h4{
+            color:white;
+            text-align:center;
+            margin-bottom:0.5rem;
+          }
+          h4{
+            margin:0;
+          }
+          &.grey{
+            background:@grey;
+          }
+          &.blue{
+            background:@blue;
+          }
+          &.blue_dark{
+            background:@blue_dark;
+          }
+          width:100%;
+        }
+        &:hover{
+          .hidden{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:100%;
+            padding:2rem;
+            color:white;
+            font-size:1.2rem;
+            &.grey{
+              background:@grey;
+            }
+            &.blue{
+              background:@blue;
+            }
+            &.blue_dark{
+              background:@blue_dark;
+            }
+          }
+          .visible{
+            display:none;
+          }
+        }
+      }  
+    }
+  }
+}
+.subpage{
+  &.solutions,&.online,&.unternehmen,&.solutions,&.outsourcing,&.consulting,&.coaching{
+    .timg{
+      margin-bottom:2rem;
+    }
+    @media (max-width: 720px){
+      .tim{
+        margin:0!important;
+      }
+    }
+  }
+  &.online{
+    section{
+      margin-bottom:2rem!important;
+    }
+    .full{
+      li:last-child{padding-bottom:0;}
+      position:relative;
+      padding-bottom:50px!important;
+      img{
+        height:100px;
+        width:inherit;
+        position:absolute;
+        bottom:0;
+        right:0.5rem;
+        z-index:0;
+      }
+    }
+    #krit{
+      li:before{
+        content: "\f058";
+        font-family: outline-icons;
+        color:@blue;
+      }
+    }
+  }
+  &.unternehmen{
+    h3.hd{
+      font-size:2rem;
+      text-align:center;
+      margin-top:0;
+    }
+    .ks{
+      height:100%;
+    }
+    #werte{
+      margin-top:1rem;
+      .ah{
+        cursor:pointer;
+        padding-left:1rem;
+        h4{
+          padding:0 0.5rem 0 1em;
+        }
+        h4:before{
+          content: "\f106";
+          font-family: icons;
+          color:@grey;
+          margin:0 0.4rem 0 -1.4rem;
+          font-size:1.3em;
+        }
+        .ctah{
+          padding-left:0.5rem;
+        }
+        &.closed{
+          .ctah{
+            display:none;
+          }
+          h4:before{
+            content: "\f107";
+            color:@blue_dark;
+          }
+        }
+      }
+    }
+    #intro{
+      position:relative;
+    }
+    #team{
+      margin-top:2rem;
+      margin:1rem 0;
+      
+      section.tm{
+        margin-top:1rem;
+      }
+      ul{
+        > li{
+          li{
+            padding:0;
+            p{
+              display:inline-block!important;
+            }
+          }
+          li:before{
+            content: "-";
+            font-family: icons;
+            color:@blue;
+            margin:0 0.4rem 0 -0.8em;
+            font-size:0.8em;
+          }
+        }
+      }
+    }
+  }
+  &.coaching,&.outsourcing{
+    .ct.ks{
+      margin-bottom:1rem;
+    }
+  }
+  &.outsourcing, &.coaching, &.solutions,&.unternehmen,&.online{
+    .column{
+      h3{
+        line-height:1.3em;
+      }
+      .pt ul{
+        padding-top:calc(1.3em + 1rem)!important;
+      }
+    }
+    .content{
+      img{
+        max-width: 100%;
+      }
+    }
+    h2{
+      padding:0.5rem 0;
+      background:white;
+      color:@blue;
+      font-size:1.2rem;
+      font-weight:normal;
+    }
+    ul{
+      position:relative;
+    }
+    li{
+      list-style-type:none;
+      padding: 0 0 1rem 2rem;
+      line-height:1.3em;
+      p{
+        display:inline-block!important;
+      }
+    }
+    li:before{
+      content: "\f35a";
+      font-family: outline-icons;
+      color:@blue;
+      margin:0 0.4rem 0 -1.6rem;
+      font-size:1.3em;
+    }
+  }
+  &.testimonial, &.projekte, &.lean{
+    .content{
+      img{
+        max-width: 100%;
+      }
+    }
+    
+    .ks{
+      &.full{
+        height:100%;
+      }
+      margin-top:2rem!important;
+      .column > div{
+        position: relative;
+      }
+      .content{
+        ul{
+          padding:0;
+          margin:0;
+          li{
+            list-style-position: outside;
+            margin-left:1em;
+          }
+        }
+        p{
+          margin:0.5rem 0;
+        }
+      }
+    }
+  }
+  &.kontakt{
+    ul.klist{
+      margin:0;
+      @media (max-width: 720px){
+        margin-top:1rem;
+      }
+      padding:0;
+      li{
+        list-style-type: none;
+        position:relative;
+        padding:0 0 0 3rem!important;
+        min-height:2rem;
+        margin-bottom:1rem;
+        .ki{
+          position:absolute;
+          top:0;
+          left:0;
+          background:@blue_dark;
+          padding:0.1rem;
+          display:flex;
+          justify-content: center;
+          align-items: center;
+          width:2rem;
+          height:2rem;
+          i{
+            color:white;
+            font-size:1.5rem;
+            margin-left:0.2em;
+            margin-top:0.2em;
+          }
+        }
+        
+      }
     }
   }
 }
