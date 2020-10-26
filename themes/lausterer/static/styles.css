@@ -1441,6 +1441,9 @@ footer .footermenu a:last-child {
   font-family: outline-icons;
   color: #009dee;
 }
+.subpage.online #krit strong {
+  color: #009dee;
+}
 .subpage.unternehmen h3.hd {
   font-size: 2rem;
   text-align: center;
