@@ -10,7 +10,7 @@ titel = "Kurzanalyse"
 [anwendungsgebiete]
 titel = "Anwendungsgebiete"
 [[anwendungsgebiete.elemente]]
-content = "<p class=\"p2\">Cobots minimieren Wartezeiten von Engpassmaschinen, durch taktgerechtes Be- und Entladen</p>"
+content = "<p class=\"p2\">LeanBOTs minimieren Wartezeiten von Engpassmaschinen, durch taktgerechtes Be- und Entladen</p>"
 farbe = "blue"
 link = " https://youtu.be/bkaADR8AS8E"
 titel = "Kapazitätsengpässe"
