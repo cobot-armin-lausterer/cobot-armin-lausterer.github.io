@@ -159,7 +159,7 @@ text_vorderseite = "flexibel"
 [[vorteile.kacheln]]
 farbe = "grey"
 icon = "/uploads/2020/10/08/vorteile_sicherheit.png"
-text_ruckseite = "Cobots erkennen dieleichteste Berührungund sind deshalb in allen   \n Betriebszuständen absolut sicher, ganz ohne Schutzraum."
+text_ruckseite = "Cobots erkennen die leichteste Berührung und sind deshalb in allen  \nBetriebszuständen absolut sicher, ganz ohne Schutzraum."
 text_vorderseite = "sicher"
 [[vorteile.kacheln]]
 farbe = "grey_light"
