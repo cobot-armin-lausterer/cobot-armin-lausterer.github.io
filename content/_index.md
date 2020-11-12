@@ -149,7 +149,7 @@ titelzeile = "Vorteile"
 [[vorteile.kacheln]]
 farbe = "blue_dark"
 icon = "/uploads/2020/10/08/vorteile_einfacheanwendung.png"
-text_ruckseite = "Cobots sind ganz leicht vom Werker selber programmierbar"
+text_ruckseite = "LeanBOTs sind ganz leicht vom Werker selber programmierbar"
 text_vorderseite = "einfach"
 [[vorteile.kacheln]]
 farbe = "blue"
