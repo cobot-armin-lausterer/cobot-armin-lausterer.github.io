@@ -154,7 +154,7 @@ text_vorderseite = "einfach"
 [[vorteile.kacheln]]
 farbe = "blue"
 icon = "/uploads/2020/10/08/vorteile_flexiblitaet.png"
-text_ruckseite = "Cobots können Vormittags Anlagen bestücken und Nachmittags Teile verpacken"
+text_ruckseite = "LeanBOTs können Vormittags Anlagen bestücken und Nachmittags Teile verpacken"
 text_vorderseite = "flexibel"
 [[vorteile.kacheln]]
 farbe = "grey"
