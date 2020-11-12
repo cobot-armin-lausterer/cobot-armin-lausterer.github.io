@@ -1,7 +1,7 @@
 +++
 pfeil = "/uploads/2020/10/20/demo-button-1.png"
 seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coaching, Consulting, Outsourcing, Online Trainings zur Prozessoptimierung"
-title = "LeanBOTS - Prozessoptimierung mit Cobots nach Lean-Prinzipien"
+title = "LeanBOTs - Prozessoptimierung mit Cobots nach Lean-Prinzipien"
 type = "page"
 [Kurzanalyse]
 bild = "/uploads/2020/10/20/analyse-icon.png"
