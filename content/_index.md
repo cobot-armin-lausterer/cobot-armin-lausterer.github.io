@@ -16,7 +16,7 @@ link = " https://youtu.be/bkaADR8AS8E"
 titel = "Kapazitätsengpässe"
 video = "bkaADR8AS8E"
 [[anwendungsgebiete.elemente]]
-content = "<p class=\"p2\">COBOTS vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
+content = "<p class=\"p2\">LeanBOTs vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
 farbe = "grey"
 link = "https://youtu.be/9jpV58_l5OI"
 titel = "Nacharbeit & Ausschuss"
