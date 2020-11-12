@@ -29,7 +29,7 @@ titel = "Arbeitsbedingungen"
 video = "7OBmVdUAdgk"
 [cobot]
 backgroundpicture = "/uploads/2020/10/08/cobot_background.png"
-headline = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
+headline = "LeanBOTs sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
 headline2 = ""
 text = "<p></p>"
 vordergrund_bild = "/uploads/2020/10/08/cobot.png"
