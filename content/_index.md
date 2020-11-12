@@ -22,7 +22,7 @@ link = "https://youtu.be/9jpV58_l5OI"
 titel = "Nacharbeit & Ausschuss"
 video = "9jpV58_l5OI"
 [[anwendungsgebiete.elemente]]
-content = "<p class=\"p2\">COBOTS übernehmen Arbeiten die durch Lärm, Staub, Gefahrstoffe, Position oder -ergonomie für Menschen dauerhaft schädlich sind.</p>"
+content = "<p class=\"p2\">LeanBOTs übernehmen Arbeiten die durch Lärm, Staub, Gefahrstoffe, Position oder -ergonomie für Menschen dauerhaft schädlich sind.</p>"
 farbe = "blue_dark"
 link = "https://youtu.be/7OBmVdUAdgk"
 titel = "Arbeitsbedingungen"
