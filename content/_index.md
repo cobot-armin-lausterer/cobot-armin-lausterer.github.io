@@ -64,7 +64,7 @@ link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orien
 [kurse]
 kurs-iframe = ""
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
-titel = "Online Live DEMO"
+titel = "LeanBOTs: Online Live DEMO"
 [leistungen]
 titel = "Unsere Leistungen"
 [[leistungen.elemente]]
