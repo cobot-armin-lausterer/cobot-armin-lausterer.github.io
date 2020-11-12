@@ -159,12 +159,12 @@ text_vorderseite = "flexibel"
 [[vorteile.kacheln]]
 farbe = "grey"
 icon = "/uploads/2020/10/08/vorteile_sicherheit.png"
-text_ruckseite = "Cobots erkennen die leichteste Berührung und sind deshalb in allen  \nBetriebszuständen absolut sicher, ganz ohne Schutzraum."
+text_ruckseite = "LeanBOTs erkennen die leichteste Berührung und sind deshalb in allen  \nBetriebszuständen absolut sicher, ganz ohne Schutzraum."
 text_vorderseite = "sicher"
 [[vorteile.kacheln]]
 farbe = "grey_light"
 icon = "/uploads/2020/10/23/kostenguenstig.png"
-text_ruckseite = "Cobots machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
+text_ruckseite = "LeanBOTs machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
 text_vorderseite = "kostengünstig"
 
 +++
