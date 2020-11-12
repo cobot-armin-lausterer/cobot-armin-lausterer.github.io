@@ -39,7 +39,7 @@ farbe = "blue"
 icon = "/uploads/2020/10/09/pdf-button.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/09/neu_200829_faq_prasentation_cobots_al.pdf"
 [einleitung]
-content = "<blockquote><p>Es ist keine andere <br> Technologie in Sicht, die die <br> Produktion unserer mittel-<br> ständischen Unternehmen, in <br> den nächsten Jahren so stark <br> verändern wird, wie COBOTS.“</p></blockquote>"
+content = "<blockquote><p>Es ist keine andere <br> Technologie in Sicht, die die <br> Produktion unserer mittel-<br> ständischen Unternehmen, in <br> den nächsten Jahren so stark <br> verändern wird, wie LeanBOTs.“</p></blockquote>"
 [[einleitung.team_einzeln]]
 farbe = "grey"
 kachelruckseite = "\"Aus der Praxis für die Praxis\""
