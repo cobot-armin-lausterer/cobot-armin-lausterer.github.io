@@ -761,6 +761,25 @@ footer .footermenu a:last-child {
 #home #kurzanalyse .content a {
   color: white;
 }
+#home #kurzanalyse .morebutton_icon {
+  padding: 1rem 2rem;
+  background-color: #ff8300;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+#home #kurzanalyse .morebutton_icon img {
+  margin-right: 1rem;
+  padding: 0;
+  width: auto;
+}
+#home #kurzanalyse .column.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 #home #kurzanalyse img {
   width: 100%;
   padding: 1rem 1rem 0rem 6rem;

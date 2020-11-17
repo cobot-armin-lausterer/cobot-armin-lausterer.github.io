@@ -140,8 +140,16 @@
       <div class="column">
         <h2>{{.titel}}</h2>
         <div class="content">
-          <div>{{.content|safeHTML}}</div>
+          <div>{{.content|safeHTML}}
+          </div>
+         
         </div>
+      </div>
+      <div class="column centered">
+        <a class="morebutton_icon" href="{{.button.link}}" target="_blank">
+          <img src="{{partial "imgUrl" (dict "img" .button.icon "params" "c_scale,f_auto,w_40" )}} "/>
+          <div>{{.button.content|safeHTML}}</div>
+        </a>
       </div>
 
     
