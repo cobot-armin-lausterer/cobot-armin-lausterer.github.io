@@ -1,35 +1,35 @@
 +++
 pfeil = "/uploads/2020/10/20/demo-button-1.png"
 seo_description = "Armin Lausterer Ingenieurbüro für Produktionssysteme: Coaching, Consulting, Outsourcing, Online Trainings zur Prozessoptimierung"
-title = "COBOTS - Kollaborative Robotersysteme"
+title = "LeanBOTs - Prozessoptimierung mit Cobots nach Lean-Prinzipien"
 type = "page"
 [Kurzanalyse]
 bild = "/uploads/2020/10/20/analyse-icon.png"
 content = "<p>jetzt durchführen, schnell &amp; einfach!<br/> <br/><a href=\"https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf\" title=\"\" target=\"_blank\"> &gt;&gt; einfach .pdf downloaden</a></p>"
-titel = "Kurzanalyse"
+titel = "Kurzanalyse: Schnell potenzielle Anwendungen in der Produktion erkennen"
 [anwendungsgebiete]
 titel = "Anwendungsgebiete"
 [[anwendungsgebiete.elemente]]
-content = "<p class=\"p2\">Cobots minimieren Wartezeiten von Engpassmaschinen, durch taktgerechtes Be- und Entladen</p>"
+content = "<p class=\"p2\">LeanBOTs minimieren Wartezeiten von Engpassmaschinen, durch taktgerechtes Be- und Entladen</p>"
 farbe = "blue"
 link = " https://youtu.be/bkaADR8AS8E"
 titel = "Kapazitätsengpässe"
 video = "bkaADR8AS8E"
 [[anwendungsgebiete.elemente]]
-content = "<p class=\"p2\">COBOTS vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
+content = "<p class=\"p2\">LeanBOTs vermeiden Nacharbeit und Ausschuss bei Arbeiten, die eine hohe Genauigkeit und oder Reproduzierbarkeit fordern</p>"
 farbe = "grey"
 link = "https://youtu.be/9jpV58_l5OI"
 titel = "Nacharbeit & Ausschuss"
 video = "9jpV58_l5OI"
 [[anwendungsgebiete.elemente]]
-content = "<p class=\"p2\">COBOTS übernehmen Arbeiten die durch Lärm, Staub, Gefahrstoffe, Position oder -ergonomie für Menschen dauerhaft schädlich sind.</p>"
+content = "<p class=\"p2\">LeanBOTs übernehmen Arbeiten die durch Lärm, Staub, Gefahrstoffe, Position oder -ergonomie für Menschen dauerhaft schädlich sind.</p>"
 farbe = "blue_dark"
 link = "https://youtu.be/7OBmVdUAdgk"
 titel = "Arbeitsbedingungen"
 video = "7OBmVdUAdgk"
 [cobot]
 backgroundpicture = "/uploads/2020/10/08/cobot_background.png"
-headline = "Kollaborierende Roboter (COBOTS) sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
+headline = "LeanBOTs sind für ein arbeiten Hand in Hand mit dem Mitarbeiter konzipiert."
 headline2 = ""
 text = "<p></p>"
 vordergrund_bild = "/uploads/2020/10/08/cobot.png"
@@ -39,7 +39,7 @@ farbe = "blue"
 icon = "/uploads/2020/10/09/pdf-button.png"
 link = "https://cobot.armin-lausterer.de/uploads/2020/10/09/neu_200829_faq_prasentation_cobots_al.pdf"
 [einleitung]
-content = "<blockquote><p>Es ist keine andere <br> Technologie in Sicht, die die <br> Produktion unserer mittel-<br> ständischen Unternehmen, in <br> den nächsten Jahren so stark <br> verändern wird, wie COBOTS.“</p></blockquote>"
+content = "<blockquote><p>Es ist keine andere <br> Technologie in Sicht, die die <br> Produktion unserer mittel-<br> ständischen Unternehmen, in <br> den nächsten Jahren so stark <br> verändern wird, wie LeanBOTs.“</p></blockquote>"
 [[einleitung.team_einzeln]]
 farbe = "grey"
 kachelruckseite = "\"Aus der Praxis für die Praxis\""
@@ -64,7 +64,7 @@ link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orien
 [kurse]
 kurs-iframe = ""
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
-titel = "Online Live DEMO"
+titel = "LeanBOTs: Online Live DEMO"
 [leistungen]
 titel = "Unsere Leistungen"
 [[leistungen.elemente]]
@@ -139,7 +139,7 @@ video = ""
 [[videos.elemente]]
 farbe = "grey_light"
 hintergrundbild = "/uploads/2020/10/08/firmenbeispiele.jpg"
-icon = "/uploads/2020/10/08/firmenbeispiele_icon"
+icon = "/uploads/2020/11/17/firmenbeispiele_icon_neu_171120.png"
 link = "https://www.youtube.com/playlist?list=PLEQlh37sPVWE1wJC88JQqlTuge_KdO-FR"
 titel = "Firmenbeispiele"
 video = ""
@@ -149,22 +149,22 @@ titelzeile = "Vorteile"
 [[vorteile.kacheln]]
 farbe = "blue_dark"
 icon = "/uploads/2020/10/08/vorteile_einfacheanwendung.png"
-text_ruckseite = "Cobots sind ganz leicht vom Werker selber programmierbar"
+text_ruckseite = "LeanBOTs sind ganz leicht vom Werker selber programmierbar"
 text_vorderseite = "einfach"
 [[vorteile.kacheln]]
 farbe = "blue"
 icon = "/uploads/2020/10/08/vorteile_flexiblitaet.png"
-text_ruckseite = "Cobots können Vormittags Anlagen bestücken und Nachmittags Teile verpacken"
+text_ruckseite = "LeanBOTs können Vormittags Anlagen bestücken und Nachmittags Teile verpacken"
 text_vorderseite = "flexibel"
 [[vorteile.kacheln]]
 farbe = "grey"
 icon = "/uploads/2020/10/08/vorteile_sicherheit.png"
-text_ruckseite = "Cobots erkennen dieleichteste Berührungund sind deshalb in allen   \n Betriebszuständen absolut sicher, ganz ohne Schutzraum."
+text_ruckseite = "LeanBOTs erkennen die leichteste Berührung und sind deshalb in allen  \nBetriebszuständen absolut sicher, ganz ohne Schutzraum."
 text_vorderseite = "sicher"
 [[vorteile.kacheln]]
 farbe = "grey_light"
 icon = "/uploads/2020/10/23/kostenguenstig.png"
-text_ruckseite = "Cobots machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
+text_ruckseite = "LeanBOTs machen sich oft schon nach weniger als 12 Monate bezahlt  (ROI <12 Monate)"
 text_vorderseite = "kostengünstig"
 
 +++
