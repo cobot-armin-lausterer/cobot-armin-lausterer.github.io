@@ -139,7 +139,7 @@ video = ""
 [[videos.elemente]]
 farbe = "grey_light"
 hintergrundbild = "/uploads/2020/10/08/firmenbeispiele.jpg"
-icon = "/uploads/2020/10/08/firmenbeispiele_icon"
+icon = "/uploads/2020/11/17/firmenbeispiele_icon_neu_171120.png"
 link = "https://www.youtube.com/playlist?list=PLEQlh37sPVWE1wJC88JQqlTuge_KdO-FR"
 titel = "Firmenbeispiele"
 video = ""
