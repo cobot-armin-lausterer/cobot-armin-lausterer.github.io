@@ -247,6 +247,35 @@ fields:
       schema:
         format: html-blocks
     label: Content
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: icon
+    - name: farbe
+      type: include
+      config: {}
+      template: farbe
+      label: Farbe
+    - name: link
+      type: text
+      config:
+        required: false
+      label: link
+    - name: content
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Content
+    label: button
   label: Kurzanalyse
 - name: leistungen
   type: field_group
