@@ -5,13 +5,13 @@ title = "LeanBOTs - Prozessoptimierung mit Cobots nach Lean-Prinzipien"
 type = "page"
 [Kurzanalyse]
 bild = "/uploads/2020/10/20/analyse-icon.png"
-content = "<p>jetzt durchführen, schnell &amp; einfach!<br/> <br/><a href=\"https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf\" title=\"\" target=\"_blank\"> &gt;&gt; einfach .pdf downloaden</a></p>"
+content = "<p>jetzt durchführen, schnell &amp; einfach!</p>"
 titel = "Kurzanalyse: Schnell potenzielle Anwendungen in der Produktion erkennen"
 [Kurzanalyse.button]
 content = " >> einfach .pdf downloaden"
-farbe = ""
+farbe = "blue"
 icon = "/uploads/2020/10/09/pdf-button.png"
-link = ""
+link = "https://cobot.armin-lausterer.de/uploads/2020/10/08/200817_vorlage_orientierungstreffen_potenzialanalyse.pdf"
 [anwendungsgebiete]
 titel = "Anwendungsgebiete"
 [[anwendungsgebiete.elemente]]
