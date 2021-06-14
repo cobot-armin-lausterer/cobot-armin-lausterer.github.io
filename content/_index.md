@@ -90,6 +90,16 @@ content_unten = "<p><strong>Damit ist die Nachhaltigkeit Ihrer Investition gewä
 farbe = "grey"
 titel_gross = "3"
 titel_hochkant = "Phase"
+[top100]
+bild = "/uploads/2021/06/14/top100_trophaeejpg"
+content = ""
+subtitel = ""
+titel = ""
+[top100.button]
+content = "<p>Entdecken</p>"
+farbe = "blue"
+icon = ""
+link = "https://armin-lausterer.de/unternehmen/"
 [videos]
 titel = "Videos"
 [[videos.elemente]]
