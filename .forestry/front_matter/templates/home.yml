@@ -433,11 +433,6 @@ fields:
     type: field_group
     config: {}
     fields:
-    - name: icon
-      type: file
-      config:
-        maxSize: 64
-      label: icon
     - name: farbe
       type: include
       config: {}
