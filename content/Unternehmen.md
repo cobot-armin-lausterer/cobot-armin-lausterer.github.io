@@ -30,7 +30,7 @@ titel = "Wir zählen zu besten Mittelstandsberatern Deutschlands"
 [[top100.button]]
 content = "<p>TOP-100 Webseite</p>"
 farbe = "blue"
-link = "https://www.beste-mittelstandsberater.de/beste-berater-2021.html"
+link = "https://www.beste-mittelstandsberater.de/2021/armin-lausterer-ingenieurbuero-fuer-produktionssysteme.html"
 [[top100.button]]
 content = "<p>Pressemitteilung</p>"
 farbe = "blue"
