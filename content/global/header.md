@@ -9,5 +9,6 @@ livecall:
   - bild: "/uploads/2020/09/22/live-call_md.png"
     buttonbeschriftung: LIVE Call MD
     buttonlink: https://us02web.zoom.us/j/8125098758
+top100: "/uploads/2021/06/14/top100.jpg"
 
 ---

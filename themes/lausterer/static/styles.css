@@ -157,23 +157,23 @@ header #logonav #hmenu {
     display: flex;
     justify-content: space-between;
   }
-  header #hcontent #hmenu {
+  header #hmenu {
     display: none;
   }
-  header #hcontent #hlogo {
+  header #hlogo {
     width: 80%;
     z-index: 99999;
     position: relative;
     margin: 0.5rem 0 0 0;
   }
-  header #hcontent #hlogo img {
+  header #hlogo img {
     z-index: 99999;
   }
-  header #hcontent #hcont {
+  header #hcont {
     width: 100%;
     padding: 50px 0 0.5rem 0;
   }
-  header #hcontent #hcont ul {
+  header #hcont ul {
     height: 100%;
     padding: 0;
     margin: 0;
@@ -183,18 +183,18 @@ header #logonav #hmenu {
     justify-content: center;
     align-items: flex-end;
   }
-  header #hcontent #hcont ul li {
+  header #hcont ul li {
     padding-right: 2rem;
     color: white;
     font-size: 0.8rem;
     margin: 0 0 0.5rem 0;
     background-size: 1em!important;
   }
-  header #hcontent #hcont ul li a {
+  header #hcont ul li a {
     color: white!important;
   }
 }
-header .logow {
+.logow {
   position: relative;
   padding: 2rem;
   width: 100%;
@@ -203,32 +203,32 @@ header .logow {
   justify-content: center;
 }
 @media (max-width: 720px) {
-  header .logow {
+  .logow {
     justify-content: flex-start;
   }
 }
-header #mnt {
+#mnt {
   display: none;
   position: absolute;
   right: 1rem;
   top: 1rem;
 }
-header #mnt #mntbt {
+#mnt #mntbt {
   box-shadow: none!important;
 }
-header #mnt #mntbt i {
+#mnt #mntbt i {
   color: #027bba;
 }
 @media (max-width: 720px) {
-  header #mnt {
+  #mnt {
     display: block;
   }
 }
-header #headermenumobil {
+#headermenumobil {
   display: none;
 }
 @media (max-width: 720px) {
-  header #headermenumobil {
+  #headermenumobil {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -239,7 +239,7 @@ header #headermenumobil {
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
   }
-  header #headermenumobil.mobvis {
+  #headermenumobil.mobvis {
     max-height: 1000px;
     padding: 0 2rem 0rem!important;
     transition-property: all;
@@ -248,7 +248,7 @@ header #headermenumobil {
     opacity: 1;
     margin: 0 -1rem;
   }
-  header #headermenumobil .headermenuitem {
+  #headermenumobil .headermenuitem {
     padding: 0 0.5rem;
     color: #5f6165;
     border: none;
@@ -258,7 +258,7 @@ header #headermenumobil {
     text-align: left;
   }
 }
-header #headermenu {
+#headermenu {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -266,11 +266,11 @@ header #headermenu {
   margin: 0;
 }
 @media (max-width: 720px) {
-  header #headermenu {
+  #headermenu {
     display: none!important;
   }
 }
-header #headermenu li {
+#headermenu li {
   padding: 0 0 0 2rem;
   list-style-type: none;
 }
@@ -304,6 +304,15 @@ header #headermenu li {
 .headermenuitem:hover .sub-menu {
   height: auto;
   padding: 0.5rem 1rem;
+}
+#top100h {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.titlewrap .container {
+  position: relative;
 }
 footer {
   margin-top: 1rem;
@@ -400,6 +409,12 @@ footer .footermenu a:last-child {
 }
 .ks.full {
   height: 100%;
+}
+#home #top100 .container {
+  padding: 0 220px 0 0;
+}
+#home #top100 h2 {
+  margin-top: 0;
 }
 #home #leistungen {
   padding-bottom: 2rem;
@@ -1467,6 +1482,18 @@ footer .footermenu a:last-child {
   font-size: 2rem;
   text-align: center;
   margin-top: 0;
+}
+.subpage.unternehmen #top100u {
+  margin-top: 2rem;
+}
+.subpage.unternehmen #top100u #bg {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.subpage.unternehmen #top100u #bg > div {
+  flex: 1 1 auto;
+  min-height: 150px;
 }
 .subpage.unternehmen .ks {
   height: 100%;

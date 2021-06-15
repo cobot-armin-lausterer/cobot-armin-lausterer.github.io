@@ -115,6 +115,7 @@ a{
   margin:1rem 0;
   display:inline-block;
 }
+
 header{
   width:100vw;
   background:white;
@@ -144,6 +145,7 @@ header{
       }
     }
   }
+  
   #logonav{
     display:flex;
     justify-content: space-between;
@@ -159,7 +161,7 @@ header{
     #hcontent{
       display:flex;
     justify-content: space-between;
-      
+  }
       #hmenu{
         display:none;
       }
@@ -270,7 +272,7 @@ header{
       list-style-type: none;
     }
   }
-}
+
 .headermenuitem{
   flex:0 1 auto;
   color:@blue_dark;
@@ -301,6 +303,15 @@ header{
       padding:0.5rem 1rem;
     }
   }
+}
+#top100h{
+  position:absolute;
+  right:0;
+  top:0;
+  z-index:2;
+}
+.titlewrap .container{
+  position:relative;
 }
 footer{
   margin-top:1rem;
@@ -399,6 +410,14 @@ footer{
   }
 }
 #home{
+  #top100{
+    .container{
+      padding:0 220px 0 0;
+    }
+    h2{
+      margin-top:0;
+    }
+  }
   #leistungen{
     padding-bottom: 2rem;
     .column{
@@ -1481,6 +1500,18 @@ footer{
       font-size:2rem;
       text-align:center;
       margin-top:0;
+    }
+    #top100u{
+      margin-top:2rem;
+      #bg{
+        display:flex;
+        height:100%;
+        flex-direction:column;
+        > div{
+          flex: 1 1 auto;
+          min-height:150px;
+        }
+      }
     }
     .ks{
       height:100%;
