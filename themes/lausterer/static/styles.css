@@ -410,6 +410,9 @@ footer .footermenu a:last-child {
 .ks.full {
   height: 100%;
 }
+#home #top100 {
+  margin-top: 2rem;
+}
 #home #top100 .container {
   padding: 0 220px 0 0;
 }
