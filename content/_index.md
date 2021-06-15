@@ -90,6 +90,16 @@ content_unten = "<p><strong>Damit ist die Nachhaltigkeit Ihrer Investition gewä
 farbe = "grey"
 titel_gross = "3"
 titel_hochkant = "Phase"
+[top100]
+bild = "/uploads/2021/06/14/top100_lausterer4.jpg"
+content = "<p>Zum 12. Mal untersuchte der bundesweite Wettbewerb <strong>TOP CONSULTANT</strong> auf wissenschaftlicher Basis, wie gut die Teilnehmer ihre mittelständischen Kunden beraten haben. Wir haben den Sprung in die Berater-Elite geschafft und sind mit dem TOP CONSULTANT-Siegel 2021 ausgezeichnet worden. <strong>Damit zählen wir zu den besten Mittelstandsberatern in Deutschland.</strong></p><p class=\"MsoNormal\">Was uns antreibt und wie wir unsere Kunden noch erfolgreicher machen, lesen Sie im Interview mit Sabine Olschner</p>"
+subtitel = "Auszeichnung"
+titel = "Wir zählen zu besten Mittelstandsberatern Deutschlands"
+[top100.button]
+content = "<p>Entdecken</p>"
+farbe = "blue"
+icon = ""
+link = "https://armin-lausterer.de/unternehmen/"
 [videos]
 titel = "Videos"
 [[videos.elemente]]
