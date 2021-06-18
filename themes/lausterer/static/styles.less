@@ -13,6 +13,11 @@ body{
   }
   background:#f8f8f8!important;
   font-size:14px;
+  
+}
+main{
+  width:100vw;
+  overflow-x: hidden;
 }
 h1,h2,h3,h4{
   font-family: 'Avenir LT W01 35 Light', sans-serif;
@@ -411,13 +416,53 @@ footer{
 }
 #home{
   #top100{
+    background:white;
+    padding:1rem 0 2rem 0;
     margin-top:2rem;
-    .container{
-      
-      padding:0 220px 0 0;
+    #t100content{
+      display:flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      #t100rcontent{
+        margin-bottom:-3rem;
+        height:45vh;
+        width:33vw;
+        flex:1 0 auto;
+      }
+      #t100lcontent{
+        background:@blue_dark;
+        padding:2rem 2rem 4rem 2rem;
+        color:white;
+        flex:1 1 auto;
+        h2,h3{
+          color:white;
+        }
+        h2{
+          font-weight:bold;
+        }
+      }
+      @media (max-width: 720px){
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        #t100rcontent{
+          margin:1rem 0;
+          height:45vh;
+          width:100vw;
+          flex:1 0 auto;
+          background-position: center top!important;
+        }
+      }
     }
     h2{
       margin-top:0;
+    }
+    .centered{
+      display:flex;
+      justify-content: center;
+      .morebutton{
+        margin-top:-2rem;
+      }
     }
   }
   #leistungen{

@@ -7,6 +7,10 @@ body {
 body *:not(i) {
   font-family: 'Avenir LT W01 35 Light', sans-serif;
 }
+main {
+  width: 100vw;
+  overflow-x: hidden;
+}
 h1,
 h2,
 h3,
@@ -411,13 +415,57 @@ footer .footermenu a:last-child {
   height: 100%;
 }
 #home #top100 {
+  background: white;
+  padding: 1rem 0 2rem 0;
   margin-top: 2rem;
 }
-#home #top100 .container {
-  padding: 0 220px 0 0;
+#home #top100 #t100content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#home #top100 #t100content #t100rcontent {
+  margin-bottom: -3rem;
+  height: 45vh;
+  width: 33vw;
+  flex: 1 0 auto;
+}
+#home #top100 #t100content #t100lcontent {
+  background: #027bba;
+  padding: 2rem 2rem 4rem 2rem;
+  color: white;
+  flex: 1 1 auto;
+}
+#home #top100 #t100content #t100lcontent h2,
+#home #top100 #t100content #t100lcontent h3 {
+  color: white;
+}
+#home #top100 #t100content #t100lcontent h2 {
+  font-weight: bold;
+}
+@media (max-width: 720px) {
+  #home #top100 #t100content {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #home #top100 #t100content #t100rcontent {
+    margin: 1rem 0;
+    height: 45vh;
+    width: 100vw;
+    flex: 1 0 auto;
+    background-position: center top!important;
+  }
 }
 #home #top100 h2 {
   margin-top: 0;
+}
+#home #top100 .centered {
+  display: flex;
+  justify-content: center;
+}
+#home #top100 .centered .morebutton {
+  margin-top: -2rem;
 }
 #home #leistungen {
   padding-bottom: 2rem;
