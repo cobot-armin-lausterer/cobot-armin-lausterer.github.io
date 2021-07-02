@@ -15,7 +15,7 @@ weight = 3
 [team]
 headline = "Team"
 [[team.teammitglied]]
-beschreibung = "<ul><li><p><strong>Motto:<br></strong>“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)</p></li><li><p><strong>Wofür ich stehe:</strong></p><ul><li><p>Zuverlässigkeit- Gerechtigkeit - Loyalität</p></li></ul></li><li><p><strong>Persönlich:</strong></p><ul><li><p>Geboren in Landshut, lebe ich nun, mit meinem Mann und drei Kindern, in der herrlichen Oberpfalz</p></li></ul></li><li><p><strong>Persönliche Kompetenzen:</strong></p><ul><li><p>Kundenbetreuung</p></li></ul><ul><li><p>Projektbetreuung</p></li></ul><ul><li><p>Prozessoptimierung</p></li></ul></li></ul>"
+beschreibung = "<ul><li><p><strong>Motto:<br>- </strong>“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)</p></li><li><p><strong>Wofür ich stehe:<br>- </strong>Zuverlässigkeit- Gerechtigkeit - Loyalität</p></li><li><p><strong>Persönlich:<br>- </strong>Geboren in Landshut, lebe ich nun, mit meinem Mann und drei Kindern, in der herrlichen Oberpfalz</p></li><li><p><strong>Persönliche Kompetenzen:<br>- </strong>Kundenbetreuung<br>- Projektbetreuung<br>- Prozessoptimierung</p></li></ul>"
 name = "Claudia Irrgang - Kundenservice"
 teambild = "/uploads/2021/07/02/claudia.jpg"
 [[team.teammitglied]]
