@@ -57,6 +57,12 @@ kachelruckseite = "\"Entweder wir finden einen Weg, oder wir machen einen\"  \nH
 name = "Melanie Düber"
 position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
+[[einleitung.team_einzeln]]
+farbe = ""
+kachelruckseite = "_“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)_"
+name = "Claudia Irrgang"
+position = "Kundenservice"
+teambild = "/uploads/2021/07/02/claudia_home_final.jpg"
 [kosten]
 bild = "/uploads/2020/10/08/kosten_icon.png"
 content = "<p>Typische Investitionen betragen etwa 50-70k€ für die Komplettlösung. Der Return on Invest (ROI) liegt meist deutlich unter 12 Monate. </p><p>Voraussetzung ist, dass an der richtigen Stelle im Wertstrom automatisiert wird. Dies kann durch eine sorgfältig durchgeführte Potenzialanalyse sichergestellt werden. </p><p>Damit rechnen sich COBOTS speziell bei Anwendungen mit geringen Volumen und hoher Variantenzahl.</p>"
