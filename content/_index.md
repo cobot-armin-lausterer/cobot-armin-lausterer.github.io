@@ -58,7 +58,7 @@ name = "Melanie Düber"
 position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [[einleitung.team_einzeln]]
-farbe = ""
+farbe = "blue_dark"
 kachelruckseite = "_“Hindernisse und Schwierigkeiten sind Stufen, auf denen wir in die Höhe steigen.“ (Friedrich Nietzsche)_"
 name = "Claudia Irrgang"
 position = "Kundenservice"
