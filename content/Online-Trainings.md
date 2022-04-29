@@ -5,8 +5,9 @@ headertitel = "Online Qualitätstrainings"
 konzept_headline = "Unser Konzept"
 layout = "onlinetraining"
 seo_description = "Onlinetraining zur Prozessoptimierung: Videokonferenzen professionell moderieren | Impulstraining Produktionsplanung und Steuerung | Lösung technischer Probleme in der Produktion | Visuelles Management in der Produktion | Einführung in die ISO 9001:2015 | Basistraining für Qualitätsfachkräfte"
+titel_onlinekurse = "Kurse"
 [kriterien]
-content_ganzebreite = "<ul><li><p>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</p></li><li><p>Inhalte sind praxisbezogen und schnell umsetzbar</p></li><li><p>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</p></li><li><p>Virtuelle Planspiele</p></li><li><p>Vertiefendes Einzelcoaching</p></li><li><p>Umfangreiche Trainingsunterlagen</p></li><li><p>Detaillierter Schulungsnachweis</p></li><li><p>Softwareplattform, die stabil und ganz einfach zu bedienen ist</p></li><li><p>Bereitstellung von Headsets und Webcams</p></li></ul><p><strong>Zufriedenheitsgarantie: Sie bezahlen nur, wenn Sie wirklich 100% zufrieden waren, ansonsten ist das gesamte Training für Sie kostenlos, garantiert !!</strong></p>"
+content_ganzebreite = "<ul><li><p>Erfahrene Trainer mit mindestens 10 Jahren Praxiserfahrung</p></li><li><p>Inhalte sind praxisbezogen und schnell umsetzbar</p></li><li><p>Abwechslungsreiche virtuelle Einzel- und Gruppenarbeiten</p></li><li><p>Virtuelle Planspiele</p></li><li><p>Vertiefendes Einzelcoaching</p></li><li><p>Umfangreiche Trainingsunterlagen</p></li><li><p>Detaillierter Schulungsnachweis</p></li><li><p>Softwareplattform, die stabil und ganz einfach zu bedienen ist</p></li><li><p>Bereitstellung von Headsets und Webcams</p></li></ul><blockquote><p><strong>Zufriedenheitsgarantie: Sie bezahlen nur, wenn Sie wirklich 100% zufrieden waren, ansonsten ist das gesamte Training für Sie kostenlos, garantiert !!</strong></p></blockquote>"
 headline = "Ihre Vorteile"
 [kurse]
 kalender = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=appointments&submodule=show&ia=index\" frameborder=\"0\"></iframe>"
@@ -15,7 +16,7 @@ titelzeile = "Kalender"
 einzelkurse = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?module=courses&submodule=show&ia=index\" frameborder=\"0\"></iframe>"
 titelzeile = "Kurse"
 [menu.main]
-name = "Online-Trainings"
+name = "Trainings"
 weight = 2
 [[content]]
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
@@ -35,5 +36,11 @@ farbe = "blue_dark"
 headline = ""
 icon = "/uploads/2020/05/14/1_lausterer_icon-03.jpg"
 subheadline = "Schritt 3 - Einzelcoaching"
+[[onlinekurse]]
+beschreibung = "<p>Automatisieren Sie schon nach Lean - Prinzipien?<br>Lean BOTs lassen sich ideal mit den Prinzipien des Lean Management verbinden.<br>Sie sind einfach, effizient, flexibel und kostengünstig.</p>"
+bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
+link = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768381"
+linkbeschriftung = "Zum Training"
+titel = "LeanBOTS - Prozessoptimierung mit Cobots nach Leanprinzipien"
 
 +++
