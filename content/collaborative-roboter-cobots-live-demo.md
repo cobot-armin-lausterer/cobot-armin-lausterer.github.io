@@ -8,7 +8,7 @@ video_home = "-bFgAvCDFqI"
 [kurse]
 kurs-iframe = "<h2 class=\"A_6FsP a_eBt D_X mq_AQ\"><a href=\"https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377\" title=\"https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377\">https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377</a></h2>"
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
-titel = ""
+titel = "Weiter zum Training"
 [menu.main]
 name = "Demo"
 weight = 1
