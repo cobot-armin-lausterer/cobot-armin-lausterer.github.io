@@ -28,7 +28,7 @@ position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [[onlinekurse]]
 beschreibung = "<h2 class=\"A_6FsP a_eBt D_X mq_AQ\"></h2>"
-bild = ""
+bild = "/uploads/2022/04/11/small_file_1602838752_1504400.png"
 link = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377"
 linkbeschriftung = "leanbots-prozessoptimierung-cobots-leanprinzipien"
 titel = "Weiter zum Kurstermin"
