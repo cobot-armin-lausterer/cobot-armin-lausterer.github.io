@@ -27,10 +27,10 @@ name = "Melanie Düber"
 position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [[onlinekurse]]
-beschreibung = ""
+beschreibung = "<h2 class=\"A_6FsP a_eBt D_X mq_AQ\"></h2>"
 bild = ""
-link = ""
-linkbeschriftung = ""
-titel = ""
+link = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377"
+linkbeschriftung = "leanbots-prozessoptimierung-cobots-leanprinzipien"
+titel = "Weiter zum Kurstermin"
 
 +++
