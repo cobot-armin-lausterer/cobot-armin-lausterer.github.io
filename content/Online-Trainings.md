@@ -15,9 +15,6 @@ titelzeile = "Kalender"
 [[kurse.kurse]]
 einzelkurse = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?module=courses&submodule=show&ia=index\" frameborder=\"0\"></iframe>"
 titelzeile = "Kurse"
-[menu.main]
-name = "Trainings"
-weight = 2
 [[content]]
 aufzaehlung = "* Wir weisen Sie in die Hard- und Software ein\n* Wir stellen Webcam und Headset zur Verfügung\n* Wir versenden vorbereitende Trainingsunterlagen"
 farbe = "blue"

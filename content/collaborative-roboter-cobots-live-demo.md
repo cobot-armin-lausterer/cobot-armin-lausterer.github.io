@@ -2,13 +2,12 @@
 layout = "cobotdemo"
 pfeil = "/uploads/2020/10/20/demo-button.png"
 seo = ""
+titel_onlinekurse = "Online Live DEMO"
 title = "Collaborative Roboter (COBOTS) Live Demo "
 video_home = "-bFgAvCDFqI"
-titel_onlinekurse = "Online Live DEMO"
 [kurse]
 kurs-iframe = ""
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
-
 [menu.main]
 name = "Demo"
 weight = 1
