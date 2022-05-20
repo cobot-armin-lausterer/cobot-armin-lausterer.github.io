@@ -2,12 +2,13 @@
 layout = "cobotdemo"
 pfeil = "/uploads/2020/10/20/demo-button.png"
 seo = ""
-titel_onlinekurse = "Online Live DEMO"
+titel_onlinekurse = ""
 title = "Collaborative Roboter (COBOTS) Live Demo "
 video_home = "-bFgAvCDFqI"
 [kurse]
-kurs-iframe = ""
+kurs-iframe = "<h2 class=\"A_6FsP a_eBt D_X mq_AQ\"><a href=\"https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377\" title=\"https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377\">https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768377</a></h2>"
 kurs_iframe = "<iframe class=\"kursolino_frame\" width=\"100%\" height=\"500\" src=\"https://armin-lausterer.kurs.software/iframe/?&module=courses&id=6675&ia=show\" frameborder=\"0\"></iframe>"
+titel = ""
 [menu.main]
 name = "Demo"
 weight = 1
@@ -26,10 +27,10 @@ name = "Melanie Düber"
 position = "Lean Trainer"
 teambild = "/uploads/2020/05/04/deuber.png"
 [[onlinekurse]]
-beschreibung = "<p>Automatisieren Sie schon nach Lean - Prinzipien?<br>Lean BOTs lassen sich ideal mit den Prinzipien des Lean Management verbinden.<br>Sie sind einfach, effizient, flexibel und kostengünstig.</p>"
-bild = "/uploads/2022/04/29/small_file_1602838752_1504400-1.png"
-link = "https://www.xing.com/events/leanbots-prozessoptimierung-cobots-leanprinzipien-3768381"
-linkbeschriftung = "Zur Demo"
-titel = "LeanBOTS - Prozessoptimierung mit Cobots nach Leanprinzipien"
+beschreibung = ""
+bild = ""
+link = ""
+linkbeschriftung = ""
+titel = ""
 
 +++
